@@ -1,4 +1,4 @@
-# Ignore everything
+﻿# Ignore everything
 *
 !*/
 
@@ -7,6 +7,8 @@
 !Obsidian_Workflow_Artifacts/**
 !.agent/
 !.agent/**
+!.cursor/
+!.cursor/**
 
 # Un-ignore Automation Components (Root Files)
 !content_factory_how_it_works.png
