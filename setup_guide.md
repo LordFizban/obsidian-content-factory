@@ -11,6 +11,31 @@ This guide will help you set up an automated content factory in Obsidian, migrat
 - **Proof Points Library** for quick metric insertion
 - **Article Archive** with repurposing tracker
 
+## 🧠 Agentic Skills (The AI Team)
+
+This system comes with 6 pre-configured Agentic Skills to help you run the factory:
+
+1. **Content Strategist**: Repurposing, hook generation, and scheduling.
+2. **Agile Coach**: Critiques drafts and provides framework matching ("Roasting").
+3. **Localization Lead**: Translates content to Turkish with cultural nuance.
+4. **Creative Director**: Converts text articles into video scripts.
+5. **Editor-in-Chief**: QA checks for tone and formatting.
+6. **Vault Manager**: Handles file lifecycle (Draft -> Published -> Archive).
+
+## 🔄 The System Workflow
+
+```mermaid
+graph TD
+    A[Idea / Problem] -->|Ask Agile Coach| B{Refinement}
+    B -->|Drafting| C[Draft Content]
+    C -->|Ask Content Strategist| D[Optimized Hooks & Visuals]
+    D -->|Ask Editor-in-Chief| E[Final Polish]
+    E --> F[Publish EN]
+    F -->|Ask Localization Lead| G[Publish TR]
+    F -->|Ask Creative Director| H[Video Script]
+    F -->|Ask Vault Manager| I[Archive]
+```
+
 ---
 
 ## Step 1: Create Folder Structure

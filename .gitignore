@@ -5,6 +5,8 @@
 # Un-ignore Automation Components (Directories)
 !Obsidian_Workflow_Artifacts/
 !Obsidian_Workflow_Artifacts/**
+!.agent/
+!.agent/**
 
 # Un-ignore Automation Components (Root Files)
 !content_factory_how_it_works.png
