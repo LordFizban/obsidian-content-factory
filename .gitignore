@@ -1,0 +1,19 @@
+# Ignore everything
+*
+!*/
+
+# Un-ignore Automation Components (Directories)
+!Obsidian_Workflow_Artifacts/
+!Obsidian_Workflow_Artifacts/**
+
+# Un-ignore Automation Components (Root Files)
+!content_factory_infographic.png
+!README.md
+!setup_guide.md
+!.gitignore
+
+# Explicitly exclude specific risky folders again just in case (though '*' covers it)
+LinkedIn_Export/
+Playground/
+.obsidian/
+.git/
