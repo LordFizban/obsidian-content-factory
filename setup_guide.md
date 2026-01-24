@@ -4,7 +4,7 @@ This guide will help you set up an automated content factory in Obsidian, migrat
 
 ## ✅ What You'll Have When Done
 
-- **5-Part Post Scaffold** template (Pattern → Mini-case → Diagram → Try this week → Tradeoff question)
+- **Post Scaffold Template** (Pattern → Mini-case → Diagram → Try this week → Tradeoff question)
 - **Bilingual workflow** (EN + collapsible 🇹🇷 sections)
 - **Content Dashboard** showing pillar distribution, publishing calendar, and metrics
 - **Frameworks Library** cataloging your signature concepts
@@ -65,6 +65,8 @@ Go to `Settings` → `Community Plugins` → `Browse` and install:
 
 Create: `LinkedIn-Content/_templates/Post-Scaffold.md`
 
+Use this template as a starting point. It uses Templater code (`<% ... %>`) to auto-fill dates and titles. Customize the structure (Pattern, Mini-Case, etc.) to match your own writing formula.
+
 ```markdown
 ---
 pillar: 
@@ -76,30 +78,28 @@ linkedin_url:
 
 # <% tp.file.title %>
 
-## 1️⃣ The Pattern
-[Describe the recurring problem or observation]
+## 1️⃣ [Your Hook / Opening Section]
+[Describe the recurring problem, observation, or hook here]
 
-## 2️⃣ Mini-Case with Numbers
-**Before:** 
-**After:** 
-**Timeframe:** 
+## 2️⃣ [Your Evidence / Mini-Case]
+[Provide examples, before/after metrics, or a mini-story]
 
-## 3️⃣ One Diagram
+## 3️⃣ [Your Visual / Diagram]
 ![[diagram-name.png]]
 *[Create diagram in Assets/Diagrams/]*
 
-## 4️⃣ Try This Week
-- [ ] [Specific actionable ritual]
+## 4️⃣ [Actionable Advice]
+- [ ] [Your actionable steps for the reader]
 
-## 5️⃣ Tradeoff Question
-*[Pointed question that reveals priorities]*
+## 5️⃣ [Engagement / Tradeoff Question]
+*[Question that prompts comments]*
 
 ---
 
 > [!info]- 🇹🇷 Türkçe Özet
-> [Turkish summary goes here]
+> [Bilingual Summary Section]
 > 
-> **Dene:** [Try this week in Turkish]
+> **Action:** [Translated Action]
 
 ---
 
@@ -112,6 +112,8 @@ linkedin_url:
 ### Template 2: Article Template
 
 Create: `LinkedIn-Content/_templates/Article-Template.md`
+
+This is a longer-form template. Adapt the headers to fit your specific article structure (e.g. "The Problem," "The Solution," "The Framework").
 
 ```markdown
 ---
@@ -127,25 +129,23 @@ metrics_used: []
 # <% tp.file.title %>
 
 ## Hook
-[Opening story or observation - 2-3 sentences]
+[Opening story or observation]
 
-## The Pattern
-[What you noticed, the broader principle]
+## The Core Concept
+[Explain the broader principle or framework]
 
-## Mini-Case: [Title]
+## Case Study / Example
 **Context:** 
 **Challenge:** 
 **Approach:** 
 **Results:** 
-- Metric 1: [before → after]
-- Metric 2: [before → after]
 
 ## The Framework
 [Your signature framework explanation]
 
 ![[framework-diagram.png]]
 
-## Try This
+## Practical Application
 1. [Step 1]
 2. [Step 2]
 3. [Step 3]
@@ -158,11 +158,7 @@ metrics_used: []
 > [!info]- 🇹🇷 Türkçe Özet
 > ### [Article Title in Turkish]
 > 
-> [Full Turkish summary - 3-4 paragraphs]
-> 
-> **Dene:**
-> 1. [Step 1 in Turkish]
-> 2. [Step 2 in Turkish]
+> [Full Turkish summary]
 
 ---
 
@@ -180,47 +176,53 @@ metrics_used: []
 
 Create: `LinkedIn-Content/Content-Strategy/Frameworks-Library.md`
 
+This document serves as a database of your intellectual property. List your unique concepts here so you can easily link to them in your posts.
+
 ```markdown
 # Frameworks Library
 
 Your signature intellectual property - reference these in posts.
 
-## Framework Example: The Triangular Process
-**Definition:** A framework for balancing Speed, Quality, and Cost.
-**When to use:** Project kick-offs, stakeholder negotiations
-**Related articles:** [[My Article on Triangles]]
+## [Framework Name]
+**Definition:** [One sentence definition]
+**When to use:** [Context]
+**Related articles:** [[Link to article]]
 
 ---
 
-## Framework Example: The Feedback Loop
-**Definition:** Shortening the distance between action and result.
-**When to use:** Agile transformation, team coaching
+## [Another Framework]
+**Definition:** ...
+**When to use:** ...
 ```
 
 ### Document 2: Proof Points Library
 
 Create: `LinkedIn-Content/Content-Strategy/Proof-Points-Library.md`
 
+Store your "wins" and data points here for quick access.
+
 ```markdown
 # Proof Points Library
 
 Quick-insert metric callouts for your posts.
 
-## Cycle Time Improvement
-**Metric:** 12 → 7 days in 3 sprints
-**Context:** After clarifying operating rules
-**Use in:** Efficiency posts
+## [Result/Metric Name]
+**Metric:** [e.g. 50% increase]
+**Context:** [Short explanation]
+**Use in:** [Topic/Pillar]
 
 ---
 
-## Customer Retention
-**Metric:** +15% YoY
-**Context:** Implemented new support workflow
+## [Another Result]
+**Metric:** ...
+**Context:** ...
 ```
 
 ### Document 3: Content Pillars
 
 Create: `LinkedIn-Content/Content-Strategy/Content-Pillars.md`
+
+Define what you write about. This helps you stay focused and categorize your content.
 
 ```markdown
 # Content Pillars
@@ -231,20 +233,20 @@ Create: `LinkedIn-Content/Content-Strategy/Content-Pillars.md`
 - **Pillar C (MOFU):** 25%
 - **Pillar D (BOFU):** 15%
 
-## Pillar 1: Education (TOFU)
-**Focus:** Teaching basic concepts to a broad audience
+## Pillar 1: [Name] (TOFU/Education)
+**Focus:** [What is this pillar about?]
 **Sub-topics:**
 - Topic 1
 - Topic 2
-**Post scaffold:** Pattern → Mini-case → Diagram → Try this week → Tradeoff question
+**Post scaffold:** [Your formula]
 
 ---
 
-## Pillar 2: Case Studies (MOFU)
-**Focus:** Showing expertise through real examples
+## Pillar 2: [Name] (MOFU/Case Studies)
+**Focus:** [What is this pillar about?]
 **Sub-topics:**
-- Client X
-- Project Y
+- Topic A
+- Topic B
 ```
 
 ---
@@ -252,6 +254,8 @@ Create: `LinkedIn-Content/Content-Strategy/Content-Pillars.md`
 ## Step 6: Create Content Dashboard
 
 Create: `LinkedIn-Content/LinkedIn-Dashboard.md`
+
+**Note:** This dashboard uses the `dataview` plugin to query your content. Ensure you have the `status` and `pillar` fields in your frontmatter (YAML) as shown in the templates.
 
 ```markdown
 # 📊 LinkedIn Content Dashboard
