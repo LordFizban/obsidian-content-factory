@@ -2,7 +2,7 @@
 
 A dynamic, automated content creation system built for Obsidian. Transform your raw ideas into polished content with structured workflows, bi-lingual support, and real-time dashboards.
 
-![Content Factory Workflow](content_factory_infographic.png)
+![Content Factory Workflow](content_factory_how_it_works.png)
 
 ## 🚀 Features
 

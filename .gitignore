@@ -7,7 +7,7 @@
 !Obsidian_Workflow_Artifacts/**
 
 # Un-ignore Automation Components (Root Files)
-!content_factory_infographic.png
+!content_factory_how_it_works.png
 !README.md
 !setup_guide.md
 !.gitignore
