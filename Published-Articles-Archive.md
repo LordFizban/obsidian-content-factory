@@ -263,6 +263,17 @@ This archive tracks all published LinkedIn articles with links and metadata.
 
 ---
 
+### Scrum.org "AI Lead" Repost
+
+**Published:** February 21, 2026
+**Pillar:** AI in Scrum
+**Kind:** Repost with Comment
+**LinkedIn:** [Open Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7430915411623329792/)
+**Frameworks:** StoryReady, PO vs SM Accountability
+**Key Themes:** AI as sparring partner, psychological safety, operational flow vs product features
+
+---
+
 ## Archive Statistics
 
 ### 2025 Statistics
@@ -282,13 +293,13 @@ This archive tracks all published LinkedIn articles with links and metadata.
 
 ### 2026 Statistics (Jan–Feb)
 
-**Total Items:** 13
+**Total Items:** 14
 **By Pillar:**
 
-- AI in Scrum: 6 items (46%) — Articles, Carousels, Text Posts
-- Psychological Safety: 4 items (31%) — incl. Continuous Improvement overlap
-- Manager Partnership: 3 items (23%)
-- Metrics That Matter: 1 item (8%)
+- AI in Scrum: 7 items (50%) — Articles, Carousels, Text Posts
+- Psychological Safety: 4 items (29%) — incl. Continuous Improvement overlap
+- Manager Partnership: 3 items (21%)
+- Metrics That Matter: 1 item (7%)
 
 **Posting Cadence:** Tuesday + Thursday (validated Feb 15, 2026)
 **Q1 ATH:** Week 7 — 848 impressions
