@@ -274,6 +274,17 @@ This archive tracks all published LinkedIn articles with links and metadata.
 
 ---
 
+### Repost: Fred Deichler's AI Meeting Tool Post
+
+**Published:** February 22, 2026
+**Pillar:** AI in Scrum
+**Kind:** Repost with Commentary
+**LinkedIn:** [Open Post](https://www.linkedin.com/posts/activity-7431238825592373248-1pb3)
+**Frameworks:** AI as Product Discovery
+**Key Themes:** AI adoption, AI as Red Team, Developer empowerment
+
+---
+
 ## Archive Statistics
 
 ### 2025 Statistics
@@ -293,12 +304,12 @@ This archive tracks all published LinkedIn articles with links and metadata.
 
 ### 2026 Statistics (Jan–Feb)
 
-**Total Items:** 14
+**Total Items:** 15
 **By Pillar:**
 
-- AI in Scrum: 7 items (50%) — Articles, Carousels, Text Posts
-- Manager Partnership: 3 items (21%)
-- Psychological Safety: 4 items (29%) — incl. Continuous Improvement overlap
+- AI in Scrum: 8 items (53%) — Articles, Carousels, Text Posts
+- Manager Partnership: 3 items (20%)
+- Psychological Safety: 4 items (27%) — incl. Continuous Improvement overlap
 - Metrics That Matter: 1 item (7%)
 
 **Posting Cadence:** Tuesday + Thursday (validated Feb 15, 2026)
