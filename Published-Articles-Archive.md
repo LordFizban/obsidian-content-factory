@@ -248,7 +248,7 @@ This archive tracks all published LinkedIn articles with links and metadata.
 **Kind:** Text Post
 **LinkedIn:** [Open Post](https://www.linkedin.com/posts/activity-7429412036293361666-nvCF)
 **Frameworks:** Decision Drift (Danish Soomro), Warrior vs. Statesman
-**Key Themes:** How good decisions erode through accommodation, sprint velocity experiment
+**Key Themes:** হাউ good decisions erode through accommodation, sprint velocity experiment
 
 ---
 
@@ -274,6 +274,17 @@ This archive tracks all published LinkedIn articles with links and metadata.
 
 ---
 
+### Business Owner Story Post
+
+**Published:** February 22, 2026
+**Pillar:** Manager Partnership
+**Kind:** Text Post
+**LinkedIn:** [Open Post](https://www.linkedin.com/posts/activity-7431238825592373248-1pb3)
+**Frameworks:** Warrior vs. Statesman
+**Key Themes:** Definition of Done, vendor dependency, alignment with business
+
+---
+
 ## Archive Statistics
 
 ### 2025 Statistics
@@ -293,15 +304,15 @@ This archive tracks all published LinkedIn articles with links and metadata.
 
 ### 2026 Statistics (Jan–Feb)
 
-**Total Items:** 14
+**Total Items:** 16
 **By Pillar:**
 
-- AI in Scrum: 7 items (50%) — Articles, Carousels, Text Posts
-- Psychological Safety: 4 items (29%) — incl. Continuous Improvement overlap
-- Manager Partnership: 3 items (21%)
-- Metrics That Matter: 1 item (7%)
+- AI in Scrum: 7 items (44%)
+- Manager Partnership: 4 items (25%)
+- Psychological Safety: 4 items (25%)
+- Metrics That Matter: 1 item (6%)
 
-**Posting Cadence:** Tuesday + Thursday (validated Feb 15, 2026)
+**Posting Cadence:** Tuesday + Thursday + Sunday (validated Feb 22, 2026)
 **Q1 ATH:** Week 7 — 848 impressions
 **Top Engagement:** Kaizen Bridge Post — 4.5% engagement rate
 
