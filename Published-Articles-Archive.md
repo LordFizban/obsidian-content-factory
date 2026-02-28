@@ -285,6 +285,28 @@ This archive tracks all published LinkedIn articles with links and metadata.
 
 ---
 
+### What Your Manager Needs From You (That Nobody Taught You)
+
+**Published:** February 24, 2026
+**Pillar:** Manager Partnership
+**Kind:** Long-form Article
+**LinkedIn:** [Open Post](https://www.linkedin.com/posts/kaannarter_i-have-two-perspectives-on-the-same-manager-ugcPost-7430883050466676736-_0Sp)
+**Frameworks:** Manager-as-Ally, 3 Questions Framework
+**Key Themes:** Managing up, dual role perspective (PM + SM), invisible decisions
+
+---
+
+### Business Owner Story: When "Done" Means Two Different Things
+
+**Published:** February 27, 2026
+**Pillar:** Manager Partnership
+**Kind:** Text Post
+**LinkedIn:** [Open Post](https://www.linkedin.com/posts/kaannarter_the-team-marked-it-done-the-business-owner-share-7430893853710311424-cVvp)
+**Frameworks:** Warrior vs. Statesman, Definition of Done
+**Key Themes:** Acceptance criteria gap, Business Owner partnership, listening before prescribing
+
+---
+
 ## Archive Statistics
 
 ### 2025 Statistics
@@ -304,16 +326,16 @@ This archive tracks all published LinkedIn articles with links and metadata.
 
 ### 2026 Statistics (Jan–Feb)
 
-**Total Items:** 15
+**Total Items:** 17
 **By Pillar:**
 
-- AI in Scrum: 8 items (53%) — Articles, Carousels, Text Posts
-- Manager Partnership: 3 items (20%)
-- Psychological Safety: 4 items (27%) — incl. Continuous Improvement overlap
-- Metrics That Matter: 1 item (7%)
+- AI in Scrum: 8 items (47%) — Articles, Carousels, Text Posts
+- Manager Partnership: 5 items (29%) — Closing the gap toward 35% target
+- Psychological Safety: 4 items (24%) — incl. Continuous Improvement overlap
+- Metrics That Matter: 1 item (6%)
 
 **Posting Cadence:** Tuesday + Thursday (validated Feb 15, 2026)
-**Q1 ATH:** Week 7 — 848 impressions
+**Q1 ATH:** Week 9 — 896 impressions 🏆
 **Top Engagement:** Kaizen Bridge Post — 4.5% engagement rate
 
 ---
