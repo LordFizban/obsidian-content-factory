@@ -16,13 +16,13 @@ Our skills are organized into three functional layers:
 
 All community-sourced skills originate from:
 
-> **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** - 882+ universal agentic skills for Claude Code, Gemini CLI, Cursor, Copilot & more.
+> **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** - 1,306+ universal agentic skills for Claude Code, Gemini CLI, Cursor, Copilot & more.
 
 | Attribute | Value |
 |-----------|-------|
 | **Repo** | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |
-| **Current Version** | v5.9.0 (Feb 20, 2026) |
-| **Total Skills** | 882+ |
+| **Current Version** | v8.5.0 (Mar 21, 2026) |
+| **Total Skills** | 1,306+ |
 | **License** | MIT |
 | **Install Path** | `.agent/skills/` |
 
@@ -62,7 +62,7 @@ All community-sourced skills originate from:
 | Vault Manager | ✅ Active | Operations | Custom |
 | **Social Content** | ✅ Restored | Production | Community |
 | **Writing Plans** | ✅ Installed | Strategic | Community |
-| **D3 Visualization** | ✅ Installed | Production | Community |
+| **D3 Visualization** | ✅ Installed | Production | Community | Local-only; no longer found upstream as of v8.5.0 |
 | ~~Document Processing~~ | ❌ Removed (2026-02-20) | Production | Community | Zero usage, not found upstream |
 
 ### Phase 2: Core Capability Sync (COMPLETED)
@@ -71,10 +71,10 @@ All community-sourced skills originate from:
 
 | Agent | Status | Layer | Source | Notes |
 |-------|--------|-------|--------|-------|
-| **Marketing Psychology** | ✅ Current | Strategic | Community | Matches latest repo version (21KB) |
-| **XLSX Analyst** | ✅ Active | Operations | Community | Installed with recalc scripts |
-| **SEO Fundamentals** | ✅ Synced | Strategic | Community | Updated to latest version (5.8KB+) |
-| **SEO Audit** | ✅ Synced | Strategic | Community | Updated to latest version (12KB+) |
+| **Marketing Psychology** | ⚠️ Diverged | Strategic | Community | Local 21KB vs upstream 6KB — upstream restructured in v6-v8; local version retained (richer) |
+| **XLSX Analyst** | ✅ Active | Operations | Community | Local-only; no longer found upstream as of v8.5.0 |
+| **SEO Fundamentals** | ✅ Synced | Strategic | Community | Updated to latest version (5.9KB) |
+| **SEO Audit** | ✅ Synced | Strategic | Community | Updated to latest version (12KB) |
 
 ### Phase 3: Content Mastery (COMPLETED)
 
@@ -133,5 +133,5 @@ All community-sourced skills originate from:
 
 ---
 
-*Last Updated: 2026-03-01*
-*Community Repo Version at Last Check: v5.9.0*
+*Last Updated: 2026-03-22*
+*Community Repo Version at Last Check: v8.5.0*
