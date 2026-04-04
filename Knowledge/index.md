@@ -32,6 +32,7 @@ updated: 2026-04-04
 | [[the_phoenix_project]] | Book/Idea | ✅ Active | Framework source. DevOps bible by Gene Kim. Introduces Flow, Unplanned Work, and the "Brent" bottleneck. |
 | [[miyamoto_musashi]] | Book/Idea | ✅ Active | Philosophy source. *A Book of Five Rings*. Explores the transition from tactical Warrior to systemic Statesman. |
 | [[marcus_aurelius]] | Book/Idea | ✅ Active | Philosophy source. *Meditations*. Foundations for Stoic Lighthouse Leadership. |
+| [[teresa_torres]] | Book/Idea | ✅ Active | Method source. *Continuous Discovery Habits*. Core playbook for the AI in Scrum and Manager Partnership pillars. |
 
 ---
 
@@ -56,6 +57,10 @@ updated: 2026-04-04
 | [[the_obstacle_is_the_way]] | Mindset | Philosophical foundation for Continuous Improvement. Solving the blocker IS the work. |
 | [[objective_judgment]] | Perception | Stripping emotional narrative away from raw events. Antidote to the Decision Fog inside Manager Partnerships. |
 | [[radical_cooperation]] | Culture | Human-centric philosophy underpinning cross-functional teams and breaking down corporate silos. |
+| [[opportunity_solution_tree]] | Framework | Maps outcomes to opportunities before moving to solutions. The core justification for using AI in discovery rather than coding. |
+| [[compare_vs_whether]] | Perception | Defeating confirmation bias by forcing multiple options. A direct cure for the Decision Fog in management. |
+| [[continuous_interviewing]] | Routine | Weekly touchpoints with customers. Validates the "Co-Design" focus within the Manager Partnership pillar. |
+| [[outcomes_over_outputs]] | Metrics | Measuring value, not just code delivery. The theoretical foundation of Vertical Slicing. |
 
 ---
 
@@ -64,7 +69,8 @@ updated: 2026-04-04
 * `Knowledge/raw/the_phoenix_project.epub` - Ingested 2026-04-04
 * `Knowledge/raw/a_book_of_five_rings.fb2` - Ingested 2026-04-04
 * `Knowledge/raw/meditations.epub` - Ingested 2026-04-04
+* `Knowledge/raw/continuous_discovery_habits.epub` - Ingested 2026-04-04
 
 ---
 
-*Last updated: 2026-04-04 — Ingested Meditations by Marcus Aurelius.*
+*Last updated: 2026-04-04 — Ingested Continuous Discovery Habits by Teresa Torres.*

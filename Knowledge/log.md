@@ -49,3 +49,9 @@
 **Pages created:** `entities/marcus_aurelius.md`, `concepts/the_inner_citadel.md`, `concepts/the_obstacle_is_the_way.md`, `concepts/objective_judgment.md`, `concepts/radical_cooperation.md`
 **Pages updated:** `index.md`
 **Notes:** Ingested Stoic philosophy. Anchored the core brand identity (Lighthouse Leadership) to specific stoic concepts. Mapped the "Obstacle is the Way" directly to Continuous Improvement processes.
+
+## [2026-04-04] ingest | Continuous Discovery Habits
+**Source:** Knowledge/raw/continuous_discovery_habits.epub
+**Pages created:** `entities/teresa_torres.md`, `concepts/opportunity_solution_tree.md`, `concepts/compare_vs_whether.md`, `concepts/continuous_interviewing.md`, `concepts/outcomes_over_outputs.md`
+**Pages updated:** `index.md`
+**Notes:** Ingested core Product Discovery methodology. Secured the theoretical anchor for the "AI in Scrum" pillar (validating that AI should be used to map opportunities, not generate solutions blindly). Mapped "compare and contrast" decision making as a cure for the Decision Fog.
