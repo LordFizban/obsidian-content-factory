@@ -31,6 +31,7 @@ updated: 2026-04-04
 | [[scrum_org]] | Organization | ✅ Active | Certification body. PSM I authority. Institutional repost candidate (no cooling limit). |
 | [[the_phoenix_project]] | Book/Idea | ✅ Active | Framework source. DevOps bible by Gene Kim. Introduces Flow, Unplanned Work, and the "Brent" bottleneck. |
 | [[miyamoto_musashi]] | Book/Idea | ✅ Active | Philosophy source. *A Book of Five Rings*. Explores the transition from tactical Warrior to systemic Statesman. |
+| [[marcus_aurelius]] | Book/Idea | ✅ Active | Philosophy source. *Meditations*. Foundations for Stoic Lighthouse Leadership. |
 
 ---
 
@@ -51,6 +52,10 @@ updated: 2026-04-04
 | [[framework_fluidity]] | Framework | "No favorite weapon." Antidote to Scrum dogmatism. Maps to Continuous Improvement pillar. |
 | [[strategic_gaze]] | Perception | "Perception is strong, sight is weak." Treating systems over symptoms to cure Decision Fog. Maps to Manager Partnership. |
 | [[calm_mind_in_chaos]] | Mindset | The mind in battle must equal the mind in peace. The philosophical engine of the Lighthouse metaphor. |
+| [[the_inner_citadel]] | Mindset | "Locus of Control." The Stoic foundation for the Lighthouse Leadership model. Protects the team from the chaos of corporate politics. |
+| [[the_obstacle_is_the_way]] | Mindset | Philosophical foundation for Continuous Improvement. Solving the blocker IS the work. |
+| [[objective_judgment]] | Perception | Stripping emotional narrative away from raw events. Antidote to the Decision Fog inside Manager Partnerships. |
+| [[radical_cooperation]] | Culture | Human-centric philosophy underpinning cross-functional teams and breaking down corporate silos. |
 
 ---
 
@@ -58,7 +63,8 @@ updated: 2026-04-04
 
 * `Knowledge/raw/the_phoenix_project.epub` - Ingested 2026-04-04
 * `Knowledge/raw/a_book_of_five_rings.fb2` - Ingested 2026-04-04
+* `Knowledge/raw/meditations.epub` - Ingested 2026-04-04
 
 ---
 
-*Last updated: 2026-04-04 — Ingested A Book of Five Rings.*
+*Last updated: 2026-04-04 — Ingested Meditations by Marcus Aurelius.*

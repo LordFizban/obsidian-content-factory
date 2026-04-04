@@ -43,3 +43,9 @@
 **Pages created:** `entities/miyamoto_musashi.md`, `concepts/framework_fluidity.md`, `concepts/strategic_gaze.md`, `concepts/calm_mind_in_chaos.md`
 **Pages updated:** `index.md`
 **Notes:** Ingested Japanese strategy philosophy to support the Warrior vs Statesman transition and the Lighthouse Leadership concept. Mapped historical strategy concepts to Agile coaching (e.g. no favorite weapon -> no framework dogmatism).
+
+## [2026-04-04] ingest | Meditations
+**Source:** Knowledge/raw/meditations.epub
+**Pages created:** `entities/marcus_aurelius.md`, `concepts/the_inner_citadel.md`, `concepts/the_obstacle_is_the_way.md`, `concepts/objective_judgment.md`, `concepts/radical_cooperation.md`
+**Pages updated:** `index.md`
+**Notes:** Ingested Stoic philosophy. Anchored the core brand identity (Lighthouse Leadership) to specific stoic concepts. Mapped the "Obstacle is the Way" directly to Continuous Improvement processes.
