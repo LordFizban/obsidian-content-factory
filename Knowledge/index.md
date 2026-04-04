@@ -29,6 +29,7 @@ updated: 2026-04-04
 | [[danish_soomro]] | Person | ❄️ Cooled | PMO/Strategy professional. Contributed "Decision Drift" concept. High-quality engagement threads. |
 | [[360_brew]] | Algorithm | ✅ Active | LinkedIn's AI ranking model. Governs all content decisions — signal weights, hashtag policy, content lifespan. |
 | [[scrum_org]] | Organization | ✅ Active | Certification body. PSM I authority. Institutional repost candidate (no cooling limit). |
+| [[the_phoenix_project]] | Book/Idea | ✅ Active | Framework source. DevOps bible by Gene Kim. Introduces Flow, Unplanned Work, and the "Brent" bottleneck. |
 
 ---
 
@@ -43,13 +44,16 @@ updated: 2026-04-04
 | [[volume_trap]] | Cadence | 2 posts/week is the global optimum. 4 posts/week = lower total impressions. Confirmed across 2 experiments. |
 | [[warrior_vs_statesman]] | Brand Framework | Signature leadership framework (Warrior = force, Statesman = system). Brand-voice amplifier applicable to all pillars. |
 | [[lighthouse_leadership]] | Brand Identity | Core brand metaphor — calm, consistent signal in chaos. Connected to Stoic philosophy. Primary identity element. |
+| [[four_types_of_work]] | Framework | From Phoenix Project. Business, Internal IT, Changes, Unplanned work. Overlaps with Kaan's Unplanned Work 28%->12% metric. |
+| [[hero_bottleneck]] | Framework | From Phoenix Project. The "Brent" archetype. Supports the Warrior (hero) vs Statesman (system) framework. |
+| [[the_three_ways]] | Framework | Flow, Feedback, Continual Learning. Maps to Continuous Improvement and Psych Safety pillars. |
 
 ---
 
 ## Raw Sources
 
-*No sources ingested yet. Drop files into `Knowledge/raw/` and run `/ingest`.*
+* `Knowledge/raw/the_phoenix_project.epub` - Ingested 2026-04-04
 
 ---
 
-*Last updated: 2026-04-04 — Initial compilation from Q1 2026 data.*
+*Last updated: 2026-04-04 — Ingested The Phoenix Project.*

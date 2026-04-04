@@ -25,3 +25,15 @@
 - `concepts/lighthouse_leadership.md`
 - `index.md`
 **Notes:** Compiled from 27 published items (Q1 2026) and 2 monthly strategy reviews. No raw sources ingested — this is a retrospective compilation of already-processed knowledge.
+
+## [2026-04-04] lint | Full scan
+**Stale pages:** 0
+**Skill divergences:** 4
+**Broken links:** 0
+**Actions taken:** Generated Lint Report for user review
+
+## [2026-04-04] ingest | The Phoenix Project
+**Source:** Knowledge/raw/the_phoenix_project.epub
+**Pages created:** `entities/the_phoenix_project.md`, `concepts/four_types_of_work.md`, `concepts/hero_bottleneck.md`, `concepts/the_three_ways.md`
+**Pages updated:** `index.md`
+**Notes:** Ingested core DevOps frameworks to support Manager Partnership and Continuous Improvement pillars. Directly tied book concepts to Author Profile metrics (unplanned work reduction 28% -> 12%).
