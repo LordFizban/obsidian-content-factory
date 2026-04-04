@@ -51,13 +51,20 @@ For every post, suggest the *visual strategy*.
 * **Alt Text:** Write SEO-friendly Alt Text for the image.
 * **Image Idea:** If no image exists, describe what image *should* be created (e.g., "A diagram comparing Warrior vs. Statesman leadership styles").
 
+### 4. 360 Brew Algorithm Constraints
+
+You must strictly adhere to the following rules when drafting LinkedIn Posts:
+* **Hashtags:** ZERO hashtags in the post body. Include 2-3 niche tags for the first comment.
+* **The Hook:** The first 2 sentences are critical for NLP relevance scoring. They must hook the reader AND classify the topic.
+* **The Call-To-Action:** Optimize for Saves over Likes. End posts with bookmark-worthy frameworks or specific, scenario-based questions to drive meaningful comments.
+
 ## 📝 Standard Procedure
 
 When given a file path or text:
 
 1. **Analyze** the Core Message (What is the one thing the user must take away?).
 2. **Generate** the Social Promotion Plan (3 Hook Options).
-3. **Draft** the LinkedIn Post text for the best option.
+3. **Draft** the LinkedIn Post text for the best option, strictly applying the 360 Brew Constraints.
 4. **Brief** the Carousel or Visuals if applicable.
 
 ## Example Output Structure
