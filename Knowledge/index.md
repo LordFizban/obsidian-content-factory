@@ -30,6 +30,7 @@ updated: 2026-04-04
 | [[360_brew]] | Algorithm | ✅ Active | LinkedIn's AI ranking model. Governs all content decisions — signal weights, hashtag policy, content lifespan. |
 | [[scrum_org]] | Organization | ✅ Active | Certification body. PSM I authority. Institutional repost candidate (no cooling limit). |
 | [[the_phoenix_project]] | Book/Idea | ✅ Active | Framework source. DevOps bible by Gene Kim. Introduces Flow, Unplanned Work, and the "Brent" bottleneck. |
+| [[miyamoto_musashi]] | Book/Idea | ✅ Active | Philosophy source. *A Book of Five Rings*. Explores the transition from tactical Warrior to systemic Statesman. |
 
 ---
 
@@ -47,13 +48,17 @@ updated: 2026-04-04
 | [[four_types_of_work]] | Framework | From Phoenix Project. Business, Internal IT, Changes, Unplanned work. Overlaps with Kaan's Unplanned Work 28%->12% metric. |
 | [[hero_bottleneck]] | Framework | From Phoenix Project. The "Brent" archetype. Supports the Warrior (hero) vs Statesman (system) framework. |
 | [[the_three_ways]] | Framework | Flow, Feedback, Continual Learning. Maps to Continuous Improvement and Psych Safety pillars. |
+| [[framework_fluidity]] | Framework | "No favorite weapon." Antidote to Scrum dogmatism. Maps to Continuous Improvement pillar. |
+| [[strategic_gaze]] | Perception | "Perception is strong, sight is weak." Treating systems over symptoms to cure Decision Fog. Maps to Manager Partnership. |
+| [[calm_mind_in_chaos]] | Mindset | The mind in battle must equal the mind in peace. The philosophical engine of the Lighthouse metaphor. |
 
 ---
 
 ## Raw Sources
 
 * `Knowledge/raw/the_phoenix_project.epub` - Ingested 2026-04-04
+* `Knowledge/raw/a_book_of_five_rings.fb2` - Ingested 2026-04-04
 
 ---
 
-*Last updated: 2026-04-04 — Ingested The Phoenix Project.*
+*Last updated: 2026-04-04 — Ingested A Book of Five Rings.*

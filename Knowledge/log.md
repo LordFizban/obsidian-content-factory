@@ -37,3 +37,9 @@
 **Pages created:** `entities/the_phoenix_project.md`, `concepts/four_types_of_work.md`, `concepts/hero_bottleneck.md`, `concepts/the_three_ways.md`
 **Pages updated:** `index.md`
 **Notes:** Ingested core DevOps frameworks to support Manager Partnership and Continuous Improvement pillars. Directly tied book concepts to Author Profile metrics (unplanned work reduction 28% -> 12%).
+
+## [2026-04-04] ingest | A Book of Five Rings
+**Source:** Knowledge/raw/a_book_of_five_rings.fb2
+**Pages created:** `entities/miyamoto_musashi.md`, `concepts/framework_fluidity.md`, `concepts/strategic_gaze.md`, `concepts/calm_mind_in_chaos.md`
+**Pages updated:** `index.md`
+**Notes:** Ingested Japanese strategy philosophy to support the Warrior vs Statesman transition and the Lighthouse Leadership concept. Mapped historical strategy concepts to Agile coaching (e.g. no favorite weapon -> no framework dogmatism).
