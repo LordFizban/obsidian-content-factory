@@ -65,11 +65,14 @@ LIMIT 10
 
 ## Raw Sources
 
-```dataview
-LIST
-FROM "LinkedIn-Content/Knowledge/raw"
-SORT file.name ASC
-```
+> Dataview cannot index binary files (EPUB, FB2). This list is maintained during `/ingest` operations.
+
+| Source | Format | Ingested |
+|:---|:---:|:---|
+| The Phoenix Project (Gene Kim) | EPUB | 2026-04-04 |
+| A Book of Five Rings (Miyamoto Musashi) | FB2 | 2026-04-04 |
+| Meditations (Marcus Aurelius) | EPUB | 2026-04-04 |
+| Continuous Discovery Habits (Teresa Torres) | EPUB | 2026-04-04 |
 
 ---
 
