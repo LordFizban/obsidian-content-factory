@@ -1,7 +1,7 @@
 ---
 type: index
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 ---
 
 # Knowledge Ledger Index
@@ -16,7 +16,7 @@ updated: 2026-04-04
 
 | Page | Summary |
 |:---|:---|
-| [[rules]] | 16 empirically-derived decision rules covering cadence, quality, 360 Brew, growth, and pillar balance. Includes divergence alerts for stale skills. |
+| [[rules]] | 16 confirmed + 1 proposed decision rules covering cadence, quality, 360 Brew, growth, and pillar balance. Rules have maturity states: ✅ Confirmed / 🧪 Proposed / ❌ Rejected. |
 
 ---
 
@@ -64,6 +64,14 @@ updated: 2026-04-04
 
 ---
 
+## Synthesis
+
+| Page | Summary |
+|:---|:---|
+| *(none yet — will be populated during `/produce` Phase 5 and ad-hoc queries)* | |
+
+---
+
 ## Raw Sources
 
 * `Knowledge/raw/the_phoenix_project.epub` - Ingested 2026-04-04
@@ -73,4 +81,4 @@ updated: 2026-04-04
 
 ---
 
-*Last updated: 2026-04-04 — Ingested Continuous Discovery Habits by Teresa Torres.*
+*Last updated: 2026-04-05 — Knowledge Layer v2 upgrade (rule maturity, synthesis, draft compound).*

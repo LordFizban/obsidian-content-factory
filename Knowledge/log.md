@@ -55,3 +55,11 @@
 **Pages created:** `entities/teresa_torres.md`, `concepts/opportunity_solution_tree.md`, `concepts/compare_vs_whether.md`, `concepts/continuous_interviewing.md`, `concepts/outcomes_over_outputs.md`
 **Pages updated:** `index.md`
 **Notes:** Ingested core Product Discovery methodology. Secured the theoretical anchor for the "AI in Scrum" pillar (validating that AI should be used to map opportunities, not generate solutions blindly). Mapped "compare and contrast" decision making as a cure for the Decision Fog.
+
+## [2026-04-05] system-upgrade | Knowledge Layer v2
+**Changes:**
+- `/produce` workflow: Replaced ambiguous Phase 5 with explicit "Draft Compound" trigger that fires after Editor-in-Chief review, not after publication.
+- `SCHEMA.md`: Added Synthesis Page Template for Query → File Back mechanism. Added Rule Maturity States (🧪 Proposed / ✅ Confirmed / ❌ Rejected). Added new LLM Maintainer rules #8 (file back) and #9 (rule maturity).
+- `rules.md`: Added Status column to all rule tables. All 16 existing rules marked ✅ Confirmed. Added Rule 17 (🧪 Proposed) from Meeting Before the Meeting draft. Cleared ghost divergence alerts.
+- Created `Knowledge/synthesis/` directory.
+**Notes:** Improvements derived from cross-referencing operational experience against Karpathy's LLM Wiki pattern and community innovations. Fixes the broken compounding loop.

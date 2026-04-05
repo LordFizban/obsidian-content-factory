@@ -35,11 +35,17 @@ description: End-to-end workflow to take a raw idea and turn it into a polished,
     * **Action:** If slot is marked 🇹🇷 in the plan, invoke `localization_lead`. Consult `Knowledge/concepts/turkish_content_strategy.md` for current rules.
     * **Output:** Culturally nuanced Turkish version.
 
-6. **Phase 5: Knowledge Compound**
-    * **Input:** Published post + Editor's Report + any new insights generated during production.
-    * **Action:** Update relevant Knowledge Ledger concept/entity pages. If a new rule emerged during production, add to `Knowledge/rules.md`. If a thought leader was referenced, update their entity page. Append to `Knowledge/log.md`.
+6. **Phase 5: Draft Compound (Knowledge Ledger Write-Back)**
+    * **Trigger:** Fires immediately after the Editor-in-Chief review passes (Phase 2) — NOT after publication.
+    * **Action:**
+      - File any new rule candidates into `Knowledge/rules.md` with status `🧪 Proposed`.
+      - If a new entity was referenced (e.g., Esther Derby), create a stub entity page in `Knowledge/entities/`.
+      - Update relevant concept pages' "Cross-References" and "Evolution" sections with links to the new draft.
+      - If a valuable cross-concept synthesis emerged during production, file it as a new page in `Knowledge/synthesis/`.
+      - Append to `Knowledge/log.md`: `## [YYYY-MM-DD] produce-compound | Draft Title`
     * **Output:** Updated Knowledge Ledger.
 
 ---
 **Next Steps (Manual/Operations):**
 *   Refer to `/archive` workflow after scheduling/publishing.
+*   The `/archive` workflow's Phase 5 (Archive Compound) will later populate Evidence tables with real analytics data and confirm/reject Proposed rules.

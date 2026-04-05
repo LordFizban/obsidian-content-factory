@@ -21,6 +21,7 @@ Knowledge/
 ├── rules.md            # Compiled decision rules from strategy reviews.
 ├── entities/           # Person, tool, algorithm, or organization pages.
 ├── concepts/           # Recurring patterns, strategies, or insights.
+├── synthesis/          # Cross-concept analyses filed back from /produce or ad-hoc queries.
 └── raw/                # Immutable source material (clipped articles, notes).
 ```
 
@@ -34,7 +35,7 @@ Every page MUST have YAML frontmatter with these fields:
 
 ```yaml
 ---
-type: entity | concept | source_summary | rule
+type: entity | concept | synthesis | source_summary | rule
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 source_count: N
@@ -93,6 +94,57 @@ How this concept has changed over time (chronological).
 What's still uncertain or untested.
 ```
 
+### Synthesis Page Template
+
+Use for valuable cross-concept analyses that emerged during `/produce` or ad-hoc queries. This is the "Query → File Back" mechanism.
+
+```markdown
+---
+type: synthesis
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+source_count: N
+related:
+  - "[[concept_1]]"
+  - "[[concept_2]]"
+tags: [synthesis]
+---
+
+# [Synthesis Title]
+
+## Question / Context
+The original question, production context, or explore that generated this synthesis.
+
+## Synthesis
+The LLM-generated analysis connecting multiple concept/entity pages.
+
+## Pages Touched
+- [[concept_1]] — how it was connected
+- [[concept_2]] — how it was connected
+
+## Filed From
+Source workflow and date (e.g., `/produce` cycle for "Meeting Before the Meeting", 2026-04-08).
+```
+
+**When to file a synthesis:**
+- During `/produce` Phase 5 (Draft Compound), if the production process generated a novel connection between two or more existing concept pages.
+- During ad-hoc exploration, if you ask a question and the answer is valuable enough to preserve.
+- The key test: *"Would losing this insight force re-derivation in a future conversation?"* If yes, file it.
+
+---
+
+## Rule Maturity States
+
+Rules in `rules.md` have a maturity lifecycle:
+
+| State | Symbol | Meaning | Graduation Criteria |
+|:---|:---:|:---|:---|
+| Proposed | 🧪 | Hypothesis generated during `/produce`. No performance data yet. | Needs evidence from at least 1 published post. |
+| Confirmed | ✅ | Supported by empirical performance data from `/archive` compound. | At least 2 data points in the same direction. |
+| Rejected | ❌ | Contradicted by performance data. | Evidence shows opposite effect or no effect. |
+
+Rules are filed as `🧪 Proposed` during `/produce` Phase 5 (Draft Compound). They graduate to `✅ Confirmed` or `❌ Rejected` during `/archive` Phase 5 (Archive Compound) when real analytics data arrives.
+
 ---
 
 ## Operations
@@ -111,7 +163,15 @@ What's still uncertain or untested.
 1. Read `Knowledge/index.md` to find relevant pages.
 2. Read relevant entity/concept pages.
 3. Synthesize context for the current content task.
-4. If the query produces a valuable new synthesis, file it as a new concept page.
+4. If the query produces a valuable new synthesis, **file it back** as a new page in `Knowledge/synthesis/`. This is the compounding mechanism.
+
+### Draft Compound (`/produce` Phase 5)
+
+1. File any new rule candidates into `rules.md` with status `🧪 Proposed`.
+2. If a new entity was referenced, create a stub entity page.
+3. Update relevant concept pages with cross-references to the new draft.
+4. If a valuable cross-concept synthesis emerged, file it in `Knowledge/synthesis/`.
+5. Append entry to `log.md` with format: `## [YYYY-MM-DD] produce-compound | Draft Title`.
 
 ### Lint (`/lint`)
 
@@ -123,12 +183,14 @@ What's still uncertain or untested.
 6. Generate a Lint Report with suggested actions.
 7. Append entry to `log.md` with format: `## [YYYY-MM-DD] lint | Scope`.
 
-### Archive Integration (`/archive` Phase 5)
+### Archive Compound (`/archive` Phase 5)
 
 1. Identify top and bottom performing posts of the period.
 2. Update relevant concept pages with performance data in Evidence tables.
-3. If a new rule emerges, add it to `rules.md` and flag skills for update.
-4. Append entry to `log.md` with format: `## [YYYY-MM-DD] archive-compound | Period`.
+3. Confirm or reject `🧪 Proposed` rules based on observed analytics data.
+4. If a new rule emerges, add it to `rules.md` and flag skills for update.
+5. Update entity cooling statuses based on actual usage.
+6. Append entry to `log.md` with format: `## [YYYY-MM-DD] archive-compound | Period`.
 
 ---
 
@@ -141,3 +203,5 @@ What's still uncertain or untested.
 5. **Keep pages focused.** One entity or concept per page. Max ~200 lines.
 6. **Date everything.** Every Evidence table row needs a date.
 7. **Flag, don't fix.** When Lint finds a skill divergence, flag it. Do not auto-update skills.
+8. **File back, don't discard.** When a `/produce` cycle or query generates a valuable cross-concept synthesis, file it as a synthesis page. Knowledge should compound, not evaporate into chat history.
+9. **Rules have maturity.** New rules from `/produce` are always `🧪 Proposed`. Only `/archive` with real data can promote them to `✅ Confirmed`.
