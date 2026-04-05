@@ -1,12 +1,15 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_count: 6
 related:
   - "[[lighthouse_leadership]]"
   - "[[stories_vs_frameworks]]"
   - "[[danish_soomro]]"
+  - "[[strategic_gaze]]"
+  - "[[miyamoto_musashi]]"
+  - "[[marcus_aurelius]]"
 tags: [framework, leadership, brand-voice, signature]
 ---
 
@@ -29,7 +32,7 @@ Kaan's brand arc is explicitly **Warrior → Statesman** — his early career wa
 | Decision Drift | 2026-02-17 | Warrior impulse vs. Statesman patience in sprint decisions | Psychological Safety |
 | Vendor Over-Commitment | 2026-02-19 | SM as diagnostic observer (Statesman mode) | Manager Partnership |
 | Business Owner Story | 2026-02-27 | Listening before prescribing (Statesman) | Manager Partnership |
-| The Facilitator's Silence (planned) | 2026-04-15 | Warrior fills the gap, Statesman holds it | Psychological Safety |
+| The Dependency Dynamic (planned) | 2026-04-10 | Warrior fills the gap, Statesman holds it | Manager Partnership |
 
 ## Current Rule
 
@@ -42,6 +45,15 @@ Kaan's brand arc is explicitly **Warrior → Statesman** — his early career wa
 - [[lighthouse_leadership]] — The Lighthouse is the Statesman's operating principle
 - [[stories_vs_frameworks]] — Warrior/Statesman posts perform best when story-driven, not abstract
 - [[danish_soomro]] — Decision Drift concept intersects Warrior impulse to act vs. Statesman patience
+- [[strategic_gaze]] — Musashi's "perception is strong, sight is weak" is the Statesman's seeing mode
+- [[marcus_aurelius]] — Inner Citadel provides the philosophical foundation for Statesman composure
+
+## Counter-Arguments & Data Gaps
+
+1. **Against:** The Warrior/Statesman binary may oversimplify leadership. Many effective leaders operate in a blended mode — neither pure Warrior nor pure Statesman. Framing it as a linear progression (Warrior → Statesman) could alienate readers who see value in Warrior-mode interventions.
+2. **Against:** "Statesman" carries historical connotations of political calculation that may feel inauthentic to some readers. The term could be perceived as elevating passivity to a virtue.
+3. **Data Gap:** We have no A/B test comparing posts that use the framework vs. similar posts that don't. The framework's actual contribution to engagement (vs. the topic itself) is unmeasured.
+4. **Bias Check:** All 4 ingested philosophy sources (Musashi, Aurelius, Phoenix Project, Torres) reinforce the Statesman archetype. We have zero sources defending a Warrior-first leadership style or challenging the linear progression model.
 
 ## Status
 

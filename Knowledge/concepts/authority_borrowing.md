@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_count: 4
 related:
   - "[[fred_deichler]]"
@@ -43,6 +43,14 @@ Referencing, reposting, or tagging established thought leaders to leverage their
 - **Feb 2026:** Fred Deichler breakthrough — 25 comments, +2 followers. Identified as the *only* mechanism that converts followers. Pure original content weeks = 0 growth.
 - **Mar 2026:** Cooling policy introduced to avoid dependency on any single voice. Max 2 refs/person/quarter.
 - **Apr 2026 (planned):** Scout new voices. Test whether commenting on leader posts (without reposting) triggers similar distribution.
+
+## Counter-Arguments & Data Gaps
+
+1. **Against:** "Only proven mechanism" is based on n=5 data points across 13 weeks. Organic follower growth may simply require more time and a larger content library. We declared AB the only lever after just one quarter.
+2. **Against:** The Fred Deichler breakthrough (25 comments, +2 followers) may be an outlier driven by the AI topic's virality in Feb 2026, not the AB mechanism itself. The same post without AI content might have performed differently.
+3. **Data Gap:** We have never tested sustained original content for more than 2 consecutive weeks without AB. The "0 growth without AB" conclusion is based on short windows.
+4. **Data Gap:** Does the mechanism work differently for Turkish-language AB posts? (Combining [[turkish_content_strategy]] with AB has never been attempted.)
+5. **Bias Check:** We are measuring follower count as the primary growth metric. Follower count may be a vanity metric — engagement rate per post may be a stronger signal of audience-building, and original content may win on that dimension.
 
 ## Open Questions
 

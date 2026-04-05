@@ -9,6 +9,7 @@ updated: 2026-04-05
 > **LLM: Read this file first** before any `/produce`, `/ingest`, or `/lint` operation.
 > For conventions and templates, see [[SCHEMA]].
 > For chronological history, see [[log]].
+> For live Obsidian dashboards, see [[dashboard]] (in `views/`).
 
 ---
 
@@ -81,4 +82,4 @@ updated: 2026-04-05
 
 ---
 
-*Last updated: 2026-04-05 — Knowledge Layer v2 upgrade (rule maturity, synthesis, draft compound).*
+*Last updated: 2026-04-05 — Knowledge Layer v2 upgrade (counter-arguments, Dataview dashboard, rule maturity, synthesis, draft compound).*

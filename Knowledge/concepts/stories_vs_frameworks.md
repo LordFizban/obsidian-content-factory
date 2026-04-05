@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_count: 6
 related:
   - "[[cta_experiments]]"
@@ -45,6 +45,14 @@ Content grounded in a concrete, personal sprint moment (a "story") consistently 
 
 - **Editor-in-Chief:** Consider adding a "Concrete Story" check to the Brand Voice Scoring Rubric, or making it a prerequisite for the "Authenticity" dimension (currently scores 1-5 without a story requirement).
 - **Content Strategist:** Hook Generator should prioritize "Vulnerable Story" (#1) over other options when pillar alignment is equal.
+
+## Counter-Arguments & Data Gaps
+
+1. **Against:** The story/framework distinction may have a ceiling with very experienced audiences (Staff Engineers, VP-level). These readers might prefer dense, actionable frameworks over narratives because they've "heard every story." We have zero data from this segment.
+2. **Against:** Manager's Manual (article + hybrid) got 357 impressions with a framework-heavy approach — only 15% below story-driven Decision Drift (356 imps). The 3.3x multiplier may apply primarily to pure-framework vs. pure-story, not hybrid formats.
+3. **Data Gap:** n=6 posts is a small sample. The 3.3x could be confounded by topic (PS topics naturally attract less reach) rather than story vs. framework format.
+4. **Data Gap:** No Turkish-language story-grounded original posts exist to test whether the multiplier applies cross-linguistically. Turkish Kaizen Bridge was a translation.
+5. **Bias Check:** All ingested philosophy sources (Musashi, Aurelius) reinforce narrative-driven leadership. We have zero sources arguing for framework-first content.
 
 ## Open Questions
 

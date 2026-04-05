@@ -22,6 +22,7 @@ Knowledge/
 ├── entities/           # Person, tool, algorithm, or organization pages.
 ├── concepts/           # Recurring patterns, strategies, or insights.
 ├── synthesis/          # Cross-concept analyses filed back from /produce or ad-hoc queries.
+├── views/              # Dataview dashboards for Obsidian (read-only for LLM).
 └── raw/                # Immutable source material (clipped articles, notes).
 ```
 
@@ -90,9 +91,22 @@ The actionable decision rule derived from this concept.
 ## Evolution
 How this concept has changed over time (chronological).
 
+## Counter-Arguments & Data Gaps
+Active challenges to this concept's validity. The LLM MUST populate this
+section with at least 2 items during every ingest or produce-compound that
+touches this page. This section exists to prevent confirmation bias.
+
+1. **Against:** [strongest argument against the current rule]
+2. **Data Gap:** [what data would we need to confirm or reject this concept?]
+3. **Bias Check:** [are we only ingesting sources that reinforce this view?]
+
 ## Open Questions
 What's still uncertain or untested.
 ```
+
+> **Why Counter-Arguments?** Without this section, the Knowledge Ledger becomes
+> an echo chamber that only reinforces existing beliefs. Every concept page must
+> actively challenge itself. (Inspired by community feedback on Karpathy's gist.)
 
 ### Synthesis Page Template
 
@@ -155,8 +169,9 @@ Rules are filed as `🧪 Proposed` during `/produce` Phase 5 (Draft Compound). T
 2. Discuss key takeaways with the user.
 3. Create or update entity pages for any referenced persons/tools/orgs.
 4. Create or update concept pages for any patterns or insights.
-5. Update `index.md` with new/modified pages.
-6. Append entry to `log.md` with format: `## [YYYY-MM-DD] ingest | Source Title`.
+5. **Populate Counter-Arguments & Data Gaps** for every concept page touched.
+6. Update `index.md` with new/modified pages.
+7. Append entry to `log.md` with format: `## [YYYY-MM-DD] ingest | Source Title`.
 
 ### Query (during `/produce` Phase -1)
 
@@ -170,8 +185,9 @@ Rules are filed as `🧪 Proposed` during `/produce` Phase 5 (Draft Compound). T
 1. File any new rule candidates into `rules.md` with status `🧪 Proposed`.
 2. If a new entity was referenced, create a stub entity page.
 3. Update relevant concept pages with cross-references to the new draft.
-4. If a valuable cross-concept synthesis emerged, file it in `Knowledge/synthesis/`.
-5. Append entry to `log.md` with format: `## [YYYY-MM-DD] produce-compound | Draft Title`.
+4. **Update Counter-Arguments & Data Gaps** for every concept page touched.
+5. If a valuable cross-concept synthesis emerged, file it in `Knowledge/synthesis/`.
+6. Append entry to `log.md` with format: `## [YYYY-MM-DD] produce-compound | Draft Title`.
 
 ### Lint (`/lint`)
 
@@ -179,9 +195,10 @@ Rules are filed as `🧪 Proposed` during `/produce` Phase 5 (Draft Compound). T
 2. Cross-reference `rules.md` against active SKILL.md files — flag divergences.
 3. Check for orphan pages (no inbound links from other pages).
 4. Check for mentioned concepts that lack their own page.
-5. Compare Content Strategist pillar targets against Content Pillars.md.
-6. Generate a Lint Report with suggested actions.
-7. Append entry to `log.md` with format: `## [YYYY-MM-DD] lint | Scope`.
+5. **Check for empty Counter-Arguments sections** — flag as bias risk.
+6. Compare Content Strategist pillar targets against Content Pillars.md.
+7. Generate a Lint Report with suggested actions.
+8. Append entry to `log.md` with format: `## [YYYY-MM-DD] lint | Scope`.
 
 ### Archive Compound (`/archive` Phase 5)
 
@@ -205,3 +222,5 @@ Rules are filed as `🧪 Proposed` during `/produce` Phase 5 (Draft Compound). T
 7. **Flag, don't fix.** When Lint finds a skill divergence, flag it. Do not auto-update skills.
 8. **File back, don't discard.** When a `/produce` cycle or query generates a valuable cross-concept synthesis, file it as a synthesis page. Knowledge should compound, not evaporate into chat history.
 9. **Rules have maturity.** New rules from `/produce` are always `🧪 Proposed`. Only `/archive` with real data can promote them to `✅ Confirmed`.
+10. **Challenge everything.** Every concept page must have a populated Counter-Arguments & Data Gaps section. If you can't find a counter-argument, that itself is a data gap worth noting.
+11. **Don't touch `views/`.** Dataview dashboards are for Obsidian rendering only. The LLM should not modify them.
