@@ -1,7 +1,7 @@
 ---
 type: rule
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_count: 5
 related:
   - "[[volume_trap]]"
@@ -63,10 +63,9 @@ tags: [strategy, rules, operations]
 
 ## Divergence Alerts
 
-> Flagged during compilation. To be resolved in next `/lint` pass.
-
-| Skill | Skill Value | Knowledge Ledger Value | Resolution |
-|:---|:---|:---|:---|
-| Content Strategist: Pillar targets | 25% / 35% / 25% / 15% | 20% / 35% / 25% / 20% | ⚠️ Skill uses pre-Q2 targets. Update needed. |
-| Content Strategist: Pillar name | "Metrics That Matter" | "Continuous Improvement" | ⚠️ Renamed in Content Pillars.md (Mar 29). Skill not updated. |
-| Author_Profile.md: Pillar targets | 25% / 35% / 25% / 15% | 20% / 35% / 25% / 20% | ⚠️ Author Profile uses pre-Q2 targets. |
+> No active divergences. Last cleared: 2026-04-05.
+>
+> **Resolved (2026-04-04):**
+> - ~~Content Strategist: Pillar targets~~ → Removed hardcoded targets; 360 Brew constraints added instead.
+> - ~~Content Strategist: Pillar name~~ → Removed hardcoded pillar names from skill.
+> - ~~Author_Profile.md: Pillar targets~~ → Updated to 20/35/25/20 + "Continuous Improvement".
