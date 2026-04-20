@@ -1,4 +1,4 @@
-﻿# Agentic Skills Strategy: Content Factory
+# Agentic Skills Strategy: Content Factory
 
 This document tracks the deployment and lifecycle of agentic skills (digital employees) within the Content Factory. It outlines our 5-Phase strategy for expanding from a core team to a fully automated multi-platform production engine, plus the Knowledge Layer that makes the system self-improving.
 
@@ -69,7 +69,7 @@ The Knowledge Layer implements Karpathy's [LLM-Wiki pattern](https://gist.github
 - **Phase -1 (Knowledge Scan):** `/produce` reads the Ledger before drafting.
 - **Phase 5 (Draft Compound):** `/produce` writes insights back after Editor review.
 - **Archive Compound:** `/archive` populates Evidence tables with real analytics.
-- **Rule Maturity:** ðŸ§ª Proposed â†’ âœ… Confirmed â†’ âŒ Rejected lifecycle.
+- **Rule Maturity:** ðŸ§ª Proposed → ✅ Confirmed → âŒ Rejected lifecycle.
 - **Counter-Arguments:** Every concept page must challenge its own validity.
 - **File-Back Loop:** Valuable syntheses from queries are filed as new wiki pages.
 - **Obsidian Sync:** Directory junction â€” changes appear in Obsidian instantly.
@@ -85,7 +85,7 @@ All community-sourced skills originate from:
 | Attribute | Value |
 |-----------|-------|
 | **Repo** | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |
-| **Current Version** | v9.6.0 |
+| **Current Version** | v10.5.0 |
 | **Total Skills** | 1,372+ |
 | **License** | MIT |
 | **Install Path** | `.agent/skills/` |
@@ -118,15 +118,16 @@ All community-sourced skills originate from:
 
 | Agent | Status | Layer | Source | Notes |
 |-------|--------|-------|--------|-------|
-| [Content Strategist](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/content_strategist/SKILL.md) | âœ… Active | Strategic | Custom | Patched with 360 Brew algorithm constraints |
-| [Master Agile Coach](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/agile_coach/SKILL.md) | âœ… Active | Strategic | Custom |
-| [Localization Lead](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/localization_lead/SKILL.md) | âœ… Active | Strategic | Custom |
-| [Creative Director](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/creative_director/SKILL.md) | âœ… Active | Strategic | Custom |
-| [Editor-in-Chief](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/editor_in_chief/SKILL.md) | âœ… Active | Production | Custom | 18/25 Brand Voice Score rubric |
-| [Vault Manager](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/vault_manager/SKILL.md) | âœ… Active | Operations | Custom |
-| **[Social Content](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/social-content/SKILL.md)** | âœ… Restored | Production | Community |
-| **[Writing Plans](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/writing-plans/SKILL.md)** | âœ… Installed | Strategic | Community |
-| **[D3 Visualization](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/d3-viz/SKILL.md)** | âœ… Installed | Production | Community |
+| [Content Strategist](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/content_strategist/SKILL.md) | ✅ Active | Strategic | Custom | Patched with 360 Brew algorithm constraints |
+| [Master Agile Coach](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/agile_coach/SKILL.md) | ✅ Active | Strategic | Custom |
+| [Localization Lead](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/localization_lead/SKILL.md) | ✅ Active | Strategic | Custom |
+| [Creative Director](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/creative_director/SKILL.md) | ✅ Active | Strategic | Custom |
+| [Editor-in-Chief](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/editor_in_chief/SKILL.md) | ✅ Active | Production | Custom | 18/25 Brand Voice Score rubric |
+| [Vault Manager](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/vault_manager/SKILL.md) | ✅ Active | Operations | Custom |
+| **[Social Content](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/social-content/SKILL.md)** | ✅ Restored | Production | Community |
+| **[Idea Darwin](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/idea-darwin/SKILL.md)** | ✅ Installed | Strategic | Community | [NEW] 6-dimensional idea scoring (P1)
+| ~~Writing Plans~~ | ❌ Not installed | Strategic | Community | Minimal value for short-form content
+| ~~D3 Visualization~~ | ❌ Removed | Production | Community | No longer found upstream (2026-04-20)
 | ~~Document Processing~~ | âŒ Removed (2026-02-20) | Production | Community | Zero usage, not found upstream |
 
 ### Phase 2: Core Capability Sync (COMPLETED)
@@ -135,10 +136,10 @@ All community-sourced skills originate from:
 
 | Agent | Status | Layer | Source | Notes |
 |-------|--------|-------|--------|-------|
-| **[Marketing Psychology](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/marketing-psychology/SKILL.md)**| âœ… Current | Strategic | Community | Matches latest repo version (21KB) |
-| **[XLSX Analyst](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/xlsx/SKILL.md)** | âœ… Active | Operations | Community | Installed with recalc scripts |
-| **[SEO Fundamentals](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/seo-fundamentals/SKILL.md)** | âœ… Synced | Strategic | Community | Updated to latest version (5.8KB+) |
-| **[SEO Audit](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/seo-audit/SKILL.md)** | âœ… Synced | Strategic | Community | Updated to latest version (12KB+) |
+| **[Marketing Psychology](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/marketing-psychology/SKILL.md)**| ✅ Current | Strategic | Community | Matches latest repo version (21KB) |
+| **[XLSX Analyst](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/xlsx/SKILL.md)** | ✅ Active | Operations | Community | Installed with recalc scripts |
+| ~~SEO Fundamentals~~ | ❌ Removed | Strategic | Community | Removed (2026-04-20) - Zero usage |
+| ~~SEO Audit~~ | ❌ Removed | Strategic | Community | Removed (2026-04-20) - Zero usage |
 
 ### Phase 3: Content Mastery (COMPLETED)
 
@@ -146,11 +147,12 @@ All community-sourced skills originate from:
 
 | Agent | Status | Layer | Source | Notes |
 |-------|--------|-------|--------|-------|
-| **[Content Creator](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/content-creator/SKILL.md)** | âœ… Installed | Production | Community | SEO-optimized marketing content (7.3KB) |
-| **[Copywriting](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/copywriting/SKILL.md)** | âœ… Installed | Production | Community | Conversion-focused marketing copy (5.2KB) |
-| **[Copy-editing](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/copy-editing/SKILL.md)** | âœ… Installed | Production | Community | Seven Sweeps review framework (12.9KB) |
-| **[Prompt Engineer](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/prompt-engineer/SKILL.md)** | âœ… Installed | Strategic | Community | 11 prompting frameworks (11KB) |
-| **[SEO Content Planner](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/seo-content-planner/SKILL.md)** | âœ… Installed | Strategic | Community | Topic clusters & content calendars (2.6KB) |
+| **[Copywriting](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/copywriting/SKILL.md)** | ✅ Synced | Production | Community | Restored for Phase 2 (v10.5.0)
+| **[Copy-editing](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/copy-editing/SKILL.md)** | ✅ Synced | Production | Community | Restored for Phase 2 (v10.5.0)
+| **[SEO Content Planner](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/seo-content-planner/SKILL.md)** | ✅ Synced | Strategic | Community | Restored for Phase 0 (v10.5.0)
+| **[Avoid AI Writing](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/avoid-ai-writing/SKILL.md)** | ✅ Installed | Production | Community | [NEW] 21-category AI patterns audit (P2)
+| ~~Content Creator~~ | ❌ Not installed | Production | Community | Overlaps with copywriting/social
+| ~~Prompt Engineer~~ | ❌ Not installed | Strategic | Community | Ad-hoc meta-tool preference
 
 ### Phase 3.5: Knowledge Layer (COMPLETED â€” 2026-04-05)
 
@@ -158,16 +160,16 @@ All community-sourced skills originate from:
 
 | Component | Status | Purpose |
 |-----------|--------|---------|
-| **Knowledge Ledger** (Karpathy LLM-Wiki) | âœ… Active | Persistent wiki: 30 concept/entity pages, 16 confirmed rules, 4 raw sources |
-| **`/ingest` workflow** | âœ… Active | Capture external inspiration (books, articles) as immutable raw sources |
-| **`/lint` workflow** | âœ… Active | Health-check for staleness, skill drift, orphan pages, bias risk |
-| **Draft Compound** (Phase 5 of `/produce`) | âœ… Active | Write-back: files rules, stub entities, and synthesis during drafting |
-| **Archive Compound** (Phase 5 of `/archive`) | âœ… Active | Populates Evidence tables with real analytics; confirms/rejects rules |
-| **Rule Maturity States** | âœ… Active | ðŸ§ª Proposed â†’ âœ… Confirmed â†’ âŒ Rejected lifecycle |
-| **Counter-Arguments & Data Gaps** | âœ… Active | Anti-confirmation-bias mechanism on all concept pages |
-| **Query â†’ File Back** | âœ… Active | Synthesis pages preserve cross-concept analyses |
-| **Dataview Dashboard** | âœ… Active | Live Obsidian dashboard with stale page detection |
-| **Obsidian Symlink** | âœ… Active | Directory junction â€” zero-sync between repo and vault |
+| **Knowledge Ledger** (Karpathy LLM-Wiki) | ✅ Active | Persistent wiki: 30 concept/entity pages, 16 confirmed rules, 4 raw sources |
+| **`/ingest` workflow** | ✅ Active | Capture external inspiration (books, articles) as immutable raw sources |
+| **`/lint` workflow** | ✅ Active | Health-check for staleness, skill drift, orphan pages, bias risk |
+| **Draft Compound** (Phase 5 of `/produce`) | ✅ Active | Write-back: files rules, stub entities, and synthesis during drafting |
+| **Archive Compound** (Phase 5 of `/archive`) | ✅ Active | Populates Evidence tables with real analytics; confirms/rejects rules |
+| **Rule Maturity States** | ✅ Active | ðŸ§ª Proposed → ✅ Confirmed → âŒ Rejected lifecycle |
+| **Counter-Arguments & Data Gaps** | ✅ Active | Anti-confirmation-bias mechanism on all concept pages |
+| **Query → File Back** | ✅ Active | Synthesis pages preserve cross-concept analyses |
+| **Dataview Dashboard** | ✅ Active | Live Obsidian dashboard with stale page detection |
+| **Obsidian Symlink** | ✅ Active | Directory junction â€” zero-sync between repo and vault |
 
 ### Phase 4: Workflow Automation (Future Expansion)
 
@@ -191,9 +193,9 @@ All community-sourced skills originate from:
 
 | Workflow | Knowledge Layer Hooks | Skills Invoked |
 |:---|:---|:---|
-| `/produce` | Phase -1: Knowledge Scan (read) â†’ Phase 5: Draft Compound (write) | Agile Coach, Marketing Psychology, Editor-in-Chief, Content Strategist, Localization Lead |
+| `/produce` | Phase -1: Knowledge Scan (read) → Phase 5: Draft Compound (write) | Agile Coach, Marketing Psychology, Editor-in-Chief, Content Strategist, Localization Lead |
 | `/archive` | Phase 5: Archive Compound (write evidence + confirm rules) | Vault Manager, XLSX Analyst |
-| `/ingest` | Full lifecycle: raw â†’ entity/concept pages â†’ index â†’ log | *(LLM-direct, no skill invocation)* |
+| `/ingest` | Full lifecycle: raw → entity/concept pages → index → log | *(LLM-direct, no skill invocation)* |
 | `/lint` | Full scan: staleness, divergences, orphans, empty counter-arguments | *(LLM-direct, no skill invocation)* |
 
 ---
@@ -207,7 +209,7 @@ All community-sourced skills originate from:
 
 ---
 
-*Last Updated: 2026-04-05*
-*Community Repo Version at Last Check: v9.6.0*
+*Last Updated: 2026-04-20*
+*Community Repo Version at Last Check: v10.5.0*
 *Knowledge Layer Version: v2 (counter-arguments, Dataview, rule maturity, file-back)*
 

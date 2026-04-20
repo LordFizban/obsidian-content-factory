@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"### Surface Signal\n**Olay:** Refinement sırasında PO, 'Vendor beni engelliyor, ihtiyacımı vermiyor' diyerek suçu dışarı attı.","x":-440,"y":-140,"width":320,"height":160},
+		{"id":"2","type":"text","text":"### SM Intervention\n**Müdahale:**\n1. \"Onlarla telefonda konuştun mu?\"\n2. \"Blocker olmadan önce onları aradın mı?\"","x":-40,"y":-220,"width":280,"height":240},
+		{"id":"3","type":"text","text":"### The Tension\n**Yüzleşme:** Odanın havası değişti. PO'nun 'mail zinciri' stratejisinin yetersizliği sessizlikle tescillendi.","x":320,"y":-140,"width":280,"height":160},
+		{"id":"4","type":"text","text":"### Root Cause\n**Teşhis:** Asıl problem vendor değil, koordinasyon eksikliği ve 'psikolojik bariyer' (arama korkusu).","x":-40,"y":100,"width":280,"height":180},
+		{"id":"5","type":"text","text":"### Theoretical Anchor\n**[[mark_graban]] (Lean):** Respect is NOT being nice. Respect is challenging people to grow.\n\n*İnanmak ve zorlamak.*","x":320,"y":100,"width":280,"height":200},
+		{"id":"6","type":"text","text":"### Strategic Choice\n**[[warrior_vs_statesman]]:** SM, sorunu özelde fısıldamak yerine takıma görünür kılarak kolektif öğrenmeyi seçti.","x":-440,"y":80,"width":320,"height":180}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"right","toNode":"2","toSide":"left"},
+		{"id":"e2","fromNode":"2","fromSide":"right","toNode":"3","toSide":"left"},
+		{"id":"e3","fromNode":"3","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e4","fromNode":"2","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"left","toNode":"6","toSide":"right"},
+		{"id":"e6","fromNode":"4","fromSide":"right","toNode":"5","toSide":"left"}
+	]
+}

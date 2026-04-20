@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-04
-source_count: 3
+updated: 2026-04-19
+source_count: 4
 related:
   - "[[360_brew]]"
   - "[[stories_vs_frameworks]]"
@@ -35,7 +35,7 @@ Systematic testing of different Call-to-Action formats at the end of LinkedIn po
 | Week | Post | CTA Format | Hypothesis |
 |:---|:---|:---|:---|
 | W15 Tue | Meeting Before the Meeting | Explicit question: "Has your PO been blindsided?" | Specific scenario = 2+ comments |
-| W17 Tue | MP Story #3 | Fill-in-the-blank: "Hardest part of working with PO is ______" | Lower barrier = more responses |
+| W17 Tue | Same Problem, Different Floors | Fill-in-the-blank: "The boundary I wish I had drawn earlier: ______" | Lower barrier = more responses |
 | W18 Tue | The Invisible Scorecard | Contrast question: "What does your PO measure that you don't?" | Information gap = curiosity-driven engagement |
 
 ## Evolution
@@ -44,6 +44,7 @@ Systematic testing of different Call-to-Action formats at the end of LinkedIn po
 - **Feb 2026:** Noticed Manager Partnership content generates 0 comments regardless of CTA.
 - **Mar 2026:** Identified that scenario-based questions outperform open-ended CTAs (Q1 Lessons).
 - **Apr 2026:** Three-format A/B test planned (explicit question, fill-in-blank, contrast question).
+- **Apr 2026 (W17):** Fill-in-the-blank CTA deployed: "The boundary I wish I had drawn earlier: ______". Also first text + AI-generated image experiment.
 
 ## Open Questions
 

@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-05
+updated: 2026-04-19
 source_count: 2
 related:
   - "[[authority_borrowing]]"
@@ -22,6 +22,7 @@ Publishing Turkish-language content as a reach lever targeting the 67% Turkish-s
 |:---|:---|:---|:---:|:---:|:---:|:---|
 | Turkish Kaizen Bridge | 2026-03-06 | Turkish | 549 | 9 | 0 | 2nd best Q1 impressions. Zero comments. |
 | Turkish Comment (LinkedIn) | 2026-03-12 | Turkish | ~200 | 3 | 0 | Short-form Turkish comment test. |
+| TR Respect Is Not Being Nice (draft) | 2026-04-23 | Turkish | TBD | TBD | TBD | Translation of Q1 #1 post (653 imps EN). Hypothesis: beat 549 TR baseline. |
 
 ## Current Rule
 
@@ -36,6 +37,8 @@ Publishing Turkish-language content as a reach lever targeting the 67% Turkish-s
 - **Pre-Q1 2026:** No Turkish content strategy.
 - **Mar 2026:** First Turkish post (Kaizen Bridge translation). 549 impressions — 2nd best Q1 performance. Zero comments.
 - **Apr 2026 (planned):** Turkish "Respect Is Not Being Nice" translation (W17 Thu). Hypothesis: if the Q1 #1 post (653 imps EN) is translated, Turkish version should match or beat the 549 baseline.
+- **Apr 2026 (W17):** Draft completed. Hook: "Vendor beni engelliyor dedi." Same two-question curiosity gap as EN original. Authority Borrowing (Graban) preserved.
+- **Apr 2026 (W17):** Re-evaluated with new /produce pipeline. Brand Voice: 23/25. 360 Brew compliant. Ready for publish.
 
 ## Counter-Arguments & Data Gaps
 

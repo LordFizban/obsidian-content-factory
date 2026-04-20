@@ -1,13 +1,13 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-05
-source_count: 4
+updated: 2026-04-19
+source_count: 6
 related:
   - "[[fred_deichler]]"
   - "[[danish_soomro]]"
   - "[[mark_graban]]"
-  - "[[scrum_org]]"
+  - "[[esther_derby]]"
   - "[[360_brew]]"
 tags: [growth, follower-conversion, linkedin-strategy]
 ---
@@ -26,6 +26,7 @@ Referencing, reposting, or tagging established thought leaders to leverage their
 | Scrum.org AI Lead Repost | 2026-02-21 | Repost + Comment | 312 | +1 | Brand alignment |
 | Fred Deichler AI Meeting | 2026-02-22 | Repost + Commentary | 489 | +2 | 25 comments from leaders. Breakthrough. |
 | Mark Graban / Kaizen Bridge | 2026-02-10 | Attribution | 332 | +1 | Healthcare domain match |
+| **Esther Derby / Dependency** | **2026-04-09** | **Original + @mention** | **538 (10d)** | **0** | **3 comments incl. Esther herself. Sahip/Owner 2.1%. Amsterdam reach. Highest-impression Q2 post.** |
 | Pure own-voice weeks | Various | Original | Variable | 0 | Zero follower growth without AB |
 
 ## Current Rule
@@ -42,7 +43,9 @@ Referencing, reposting, or tagging established thought leaders to leverage their
 - **Jan 2026:** First Authority Borrowing attempts. Trevor Greenberg repost — low fit, low return.
 - **Feb 2026:** Fred Deichler breakthrough — 25 comments, +2 followers. Identified as the *only* mechanism that converts followers. Pure original content weeks = 0 growth.
 - **Mar 2026:** Cooling policy introduced to avoid dependency on any single voice. Max 2 refs/person/quarter.
-- **Apr 2026 (planned):** Scout new voices. Test whether commenting on leader posts (without reposting) triggers similar distribution.
+- **Apr 2026:** Esther Derby Authority Borrowing — original post with @mention (not repost). **First engagement from a globally recognized thought leader.** She commented directly with a nuanced addition about "constraints that bound autonomy." Grew to **538 impressions in 10 days** (up from 375/3d). 2.6x velocity vs. own-voice "Meeting Before the Meeting" (206/12d). Scrum Uzmanı + Amsterdam Area appeared in demographics — cross-network reach confirmed.
+- **Apr 2026 (W16 update):** Follower conversion still 0 despite 538 imprs. AB drives reach + comments but direct follower attribution remains elusive. C-level titles (Sahip/Owner) appeared for first time. Rule #18 🧪 partially supported (2.6x, N=1).
+- **Apr 2026 (W17):** TR "Saygı, Nazik Olmak Değildir" — Graban referansı korunmuş lokalizasyon. Cooling exception: Çeviri orijinal Q1 referansı olduğundan yeni referans sayılmaz.
 
 ## Counter-Arguments & Data Gaps
 

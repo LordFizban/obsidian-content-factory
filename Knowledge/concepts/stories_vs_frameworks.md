@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-05
-source_count: 6
+updated: 2026-04-19
+source_count: 8
 related:
   - "[[cta_experiments]]"
   - "[[warrior_vs_statesman]]"
@@ -26,6 +26,9 @@ Content grounded in a concrete, personal sprint moment (a "story") consistently 
 | Manager's Manual | 2026-02-24 | Article (story + framework) | 357 | Low | Hybrid | 🟡 High reach, low engagement |
 | Done With People | 2026-03-06 | Text (abstract) | 198 | Low | Framework | ❌ Abstract philosophy, no sprint moment |
 | AI Discovery Carousel | 2026-02-05 | Carousel (framework) | 104 | Low | Framework | ❌ Framework-heavy, low narrative |
+| The Facilitator's Silence | 2026-04-14 | Article (story) | 367 (5d) | Medium | Story | ✅ Shu-Ha-Ri grounded in concrete meeting. 3 profile views. |
+| The Strength You Build in Private | 2026-04-16 | Text (story) | 298 (3d) | Medium | Story | ✅ Real PO onboarding narrative. 11% Director reach. |
+| TR Saygı, Nazik Olmak Değildir | 2026-04-23 | Text (story, TR) | TBD | TBD | Story (TR) | 🟡 Pending — first Turkish story-grounded post test |
 
 ## Current Rule
 
@@ -40,6 +43,7 @@ Content grounded in a concrete, personal sprint moment (a "story") consistently 
 - **Feb 2026:** Feb Strategy Review noted that Kaizen Bridge (story) outperformed AI Discovery Carousel (framework) by 3x on engagement rate.
 - **Mar 2026:** "Respect Is Not Being Nice" (653 imps, story) vs "Done With People" (198 imps, abstract) — 3.3x reach difference. Rule crystallized.
 - **Apr 2026:** Codified in April Content Plan as the #1 Q1 lesson. Applied to all April slots.
+- **Apr 2026 (W16):** Both W16 posts are story-grounded. Facilitator's Silence (367 imps/5d) generated 3 profile views — suggesting story-driven PS articles drive author curiosity. PO Private Strength (298 imps/3d) strong early velocity. n=8 total, all story-driven posts outperform framework posts.
 
 ## Implications for Skills
 

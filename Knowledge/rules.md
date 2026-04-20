@@ -1,7 +1,7 @@
 ---
 type: rule
 created: 2026-04-04
-updated: 2026-04-05
+updated: 2026-04-19
 source_count: 5
 related:
   - "[[volume_trap]]"
@@ -61,17 +61,29 @@ tags: [strategy, rules, operations]
 | 15 | **Psychological Safety: 25%. Always story-grounded.** | ✅ | Abstract PS content (198 imps) underperforms story-driven PS (332-356 imps). | Content Pillars.md |
 | 16 | **Continuous Improvement: 20%. Renamed from "Metrics That Matter".** | ✅ | Expanded scope to include retros, Kaizen, PDCA. Most neglected at 6% in Q1. | Content Pillars.md (Mar 29 revision) |
 
+## Rejected Rules
+
+| # | Rule | Status | Evidence | Source |
+|:---:|:---|:---:|:---|:---|
+| 17 | **Explicit save prompts in first comment increase save rate.** | ❌ | Tested on Meeting Before the Meeting + Dependency Dynamic (W15). Zero saves on both. 0 saves across 9 tracked posts total. | [[cta_experiments]], Q2 Analytics W15 |
+
 ## Proposed Rules (Pending Validation)
 
 | # | Rule | Status | Evidence | Source |
 |:---:|:---|:---:|:---|:---|
-| 17 | **Explicit save prompts in first comment increase save rate.** | 🧪 | Untested. Filed from "Meeting Before the Meeting" draft (2026-04-08). | [[cta_experiments]] |
+| 18 | **Authority Borrowing posts generate ~2.5x early-velocity impressions vs. own-voice posts.** | 🧪 | Dependency Dynamic (538 imps/10d) vs. Meeting Before the Meeting (206 imps/12d) = 2.6x. N=1, needs replication. | [[authority_borrowing]], Q2 Analytics W15-W16 |
+| 19 | **Meta-content (content about content) is penalized by the algorithm.** | 🧪 | Q1 Retro (122 imps) is the weakest post of 2026 by a wide margin. Low curiosity gap for non-followers. | Q2 Analytics W14 |
 
 ---
 
 ## Divergence Alerts
 
-> No active divergences. Last cleared: 2026-04-05.
+> No active divergences. Last cleared: 2026-04-19 (lint).
+>
+> **Resolved (2026-04-19 — lint):**
+> - ~~Content Strategist SKILL.md L59: "Optimize for Saves"~~ → Updated to "Optimize for Comments." (Rule 17 ❌)
+> - ~~Content Pillars.md L14: "Q2 Priority: Generate Saves"~~ → Updated to comments + profile views.
+> - ~~rules.md Rule 18: "375 imps/3d"~~ → Updated to "538 imps/10d, 2.6x."
 >
 > **Resolved (2026-04-04):**
 > - ~~Content Strategist: Pillar targets~~ → Removed hardcoded targets; 360 Brew constraints added instead.

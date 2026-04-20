@@ -1,4 +1,4 @@
----
+﻿---
 description: Health-check the Knowledge Ledger and detect drift between skills and accumulated evidence.
 ---
 
@@ -20,15 +20,15 @@ Triggered monthly or quarterly. Scans the Knowledge Ledger for staleness, incons
 2. **Skill Drift Detection**
     * **Action:** Read `Knowledge/rules.md` (especially the Divergence Alerts section).
     * **Action:** Compare rules against the following active SKILL.md files:
-      - `.agent/skills/content_strategist/SKILL.md` — pillar targets, 360 Brew rules, platform rules
-      - `.agent/skills/editor_in_chief/SKILL.md` — scoring rubric, AI-speak blacklist
-      - `.agent/skills/vault_manager/SKILL.md` — lifecycle paths
+      - `.agent/skills/content_strategist/SKILL.md` â€” pillar targets, 360 Brew rules, platform rules
+      - `.agent/skills/editor_in_chief/SKILL.md` â€” scoring rubric, AI-speak blacklist
+      - `.agent/skills/vault_manager/SKILL.md` â€” lifecycle paths
     * **Output:** List of divergences with specific line references.
 
-3. **Cross-Reference Check**
+3. **Cross-Reference Check (Obsidian CLI)**
     * **Action:** For each concept/entity page:
       - Check that all `[[wiki links]]` point to existing pages.
-      - Check for concepts or entities *mentioned* in page text that don't have their own page.
+      - Use obsidian-cli to detect unresolved links (mentions without pages).
       - Identify orphan pages (pages with no inbound links from other pages).
     * **Output:** List of broken links, missing pages, and orphans.
 
@@ -49,25 +49,25 @@ Triggered monthly or quarterly. Scans the Knowledge Ledger for staleness, incons
 6. **Generate Lint Report**
     * **Action:** Compile findings into a structured report:
       ```markdown
-      # Knowledge Lint Report — [Date]
+      # Knowledge Lint Report â€” [Date]
 
-      ## 🔴 Stale Pages (>60 days)
+      ## ðŸ”´ Stale Pages (>60 days)
       - [list]
 
-      ## ⚠️ Skill Divergences
+      ## âš ï¸ Skill Divergences
       | Skill | Skill Value | Ledger Value | Suggested Action |
       |:---|:---|:---|:---|
 
-      ## 🔗 Link Health
+      ## ðŸ”— Link Health
       - Broken links: [list]
       - Missing pages: [list]
       - Orphan pages: [list]
 
-      ## 📊 Evidence Gaps
+      ## ðŸ“Š Evidence Gaps
       - Under-evidenced concepts: [list]
       - Answerable open questions: [list]
 
-      ## ✅ Suggested Actions
+      ## âœ… Suggested Actions
       1. [prioritized action items]
       ```
     * **Output:** Present report to user for review.
@@ -81,3 +81,4 @@ Triggered monthly or quarterly. Scans the Knowledge Ledger for staleness, incons
       **Broken links:** [count]
       **Actions taken:** [list or "pending user review"]
       ```
+

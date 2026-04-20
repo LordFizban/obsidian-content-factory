@@ -1,7 +1,7 @@
 ---
 type: index
 created: 2026-04-04
-updated: 2026-04-05
+updated: 2026-04-20
 ---
 
 # Knowledge Ledger Index
@@ -17,7 +17,7 @@ updated: 2026-04-05
 
 | Page | Summary |
 |:---|:---|
-| [[rules]] | 16 confirmed + 1 proposed decision rules covering cadence, quality, 360 Brew, growth, and pillar balance. Rules have maturity states: ✅ Confirmed / 🧪 Proposed / ❌ Rejected. |
+| [[rules]] | 16 confirmed + 3 proposed + 1 rejected decision rules covering cadence, quality, 360 Brew, growth, and pillar balance. Rules have maturity states: ✅ Confirmed / 🧪 Proposed / ❌ Rejected. |
 
 ---
 
@@ -34,7 +34,7 @@ updated: 2026-04-05
 | [[miyamoto_musashi]] | Book/Idea | ✅ Active | Philosophy source. *A Book of Five Rings*. Explores the transition from tactical Warrior to systemic Statesman. |
 | [[marcus_aurelius]] | Book/Idea | ✅ Active | Philosophy source. *Meditations*. Foundations for Stoic Lighthouse Leadership. |
 | [[teresa_torres]] | Book/Idea | ✅ Active | Method source. *Continuous Discovery Habits*. Core playbook for the AI in Scrum and Manager Partnership pillars. |
-
+| [[esther_derby]] | Person | ✅ Active | Globally recognized Agile thought leader. Commented on The Dependency Dynamic (W15). First top-tier engagement. |
 ---
 
 ## Concepts
@@ -69,7 +69,16 @@ updated: 2026-04-05
 
 | Page | Summary |
 |:---|:---|
-| *(none yet — will be populated during `/produce` Phase 5 and ad-hoc queries)* | |
+| [[facilitator_restraint]] | Cross-concept synthesis connecting Warrior vs. Statesman, Lighthouse Leadership, and Hero Bottleneck through the mechanism of deliberate SM absence/restraint. Filed from W16 production. |
+| [[respect_as_challenge_synthesis]] | Synthesis connecting Mark Graban's Lean principles with the Warrior vs. Statesman framework through the lens of 'Respect via Challenge'. Filed from W17 production. |
+
+---
+
+## Logic Maps
+
+| Page | Theme | Summary |
+|:---|:---|:---|
+| [[Respect_Not_Nice_Logic.canvas]] | Respect/Lean | Visualizes the SM's tactical intervention and the underlying theoretical anchor (Graban: Respect = Challenge). |
 
 ---
 
@@ -82,4 +91,4 @@ updated: 2026-04-05
 
 ---
 
-*Last updated: 2026-04-05 — Knowledge Layer v2 upgrade (counter-arguments, Dataview dashboard, rule maturity, synthesis, draft compound).*
+*Last updated: 2026-04-20 — Added Respect as Challenge synthesis and Logic Map. 15 concept pages updated with Counter-Arguments.*

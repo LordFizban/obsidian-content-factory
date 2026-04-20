@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-04
-source_count: 4
+updated: 2026-04-12
+source_count: 5
 related:
   - "[[warrior_vs_statesman]]"
   - "[[stories_vs_frameworks]]"
@@ -29,6 +29,7 @@ Connected to Stoic philosophy — Marcus Aurelius, the idea of controlling what 
 | The Lighthouse Keeper's Duty | 2025 | Origin article — Stoic leadership | Psychological Safety | N/A |
 | The Lighthouse Keeper (Video) | 2026-01-22 | LinkedIn Video — resilience narrative | Psychological Safety | ~250 |
 | The Emergency Session No One Wanted | 2025-10-04 | Crisis management — holding space | Psychological Safety | N/A |
+| The Facilitator's Silence (draft) | 2026-04-15 | Testing if team internalized the signal — "Can they navigate when you turn off the light?" | Psychological Safety | TBD |
 
 ## Current Rule
 
