@@ -1,8 +1,9 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-06-06
 source_count: 1
+status: reserve
 related:
   - "[[teresa_torres]]"
 tags: [metrics, continuous-improvement]
@@ -24,6 +25,12 @@ The fundamental shift from measuring success by delivery (Output: "We shipped th
 
 ## Evolution
 - **Apr 2026:** Ingested to solidify cycle time and continuous improvement metrics.
+
+## Counter-Arguments & Data Gaps
+
+1. **Against:** In immature teams or complex legacy systems, focusing purely on high-level outcomes can lead to frustration if teams cannot directly control or measure the outcome due to lag times. Clearly defined outputs are necessary milestones for morale.
+2. **Data Gap:** Team satisfaction and cycle-time variation metrics comparing output milestone targets vs. lagging business outcome targets.
+3. **Bias Check:** Agile literature dogmatizes outcomes; must review engineering execution models where output metrics are critical for operational baseline stability.
 
 ## Open Questions
 - N/A

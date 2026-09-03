@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-06-07
 source_count: 3
 related:
   - "[[authority_borrowing]]"
@@ -30,6 +30,7 @@ Lean management expert, author of *Lean Hospitals* and *Measures of Success*. Fo
 | Kaizen Bridge Post | 2026-02-10 | Text + Image | 332 | Direct attribution — Lean-to-Agile bridge. Q1 best engagement rate (4.5%). |
 | Turkish Kaizen Bridge | 2026-03-06 | Turkish Translation | 549 | Preserved Graban reference. 2nd best Q1 impressions. |
 | Respect Is Not Being Nice | 2026-03-10 | Text Post | 653 | Graban ecosystem overlap. Q1 ATH single post. |
+| TR Saygı, Nazik Olmak Değildir | 2026-04-23 | Turkish Translation | 652 | Translation of "Respect Is Not Being Nice". Cooling exception. |
 
 ## Cross-References
 

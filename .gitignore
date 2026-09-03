@@ -1,23 +1,22 @@
-﻿# Ignore everything
-*
-!*/
+# Python & Caches
+__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+*.sqlite3
 
-# Un-ignore Automation Components (Directories)
-!Obsidian_Workflow_Artifacts/
-!Obsidian_Workflow_Artifacts/**
-!.agent/
-!.agent/**
-!.cursor/
-!.cursor/**
+# Test & Scratch files
+test_write_perm.txt
+write_test.txt
+chapters_found.txt
 
-# Un-ignore Automation Components (Root Files)
-!content_factory_how_it_works.png
-!README.md
-!setup_guide.md
-!.gitignore
-
-# Explicitly exclude specific risky folders again just in case (though '*' covers it)
+# Large / Export directories
 LinkedIn_Export/
 Playground/
 .obsidian/
 .git/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

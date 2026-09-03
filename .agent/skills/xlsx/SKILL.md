@@ -1,4 +1,5 @@
 ﻿---
+version: 15.7.0
 name: xlsx
 description: "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
 license: Proprietary. LICENSE.txt has complete terms
@@ -64,7 +65,8 @@ Unless otherwise stated by the user or existing template
 A user may ask you to create, edit, or analyze the contents of an .xlsx file. You have different tools and workflows available for different tasks.
 
 ## Important Requirements
-**LibreOffice Required for Formula Recalculation**: You can assume LibreOffice is installed for recalculating formula values using the ecalc.py script. The script automatically configures LibreOffice on first run
+**LibreOffice Required for Formula Recalculation**: You can assume LibreOffice is installed for recalculating formula values using the 
+ecalc.py script. The script automatically configures LibreOffice on first run
 
 ## Reading and analyzing data
 
@@ -195,7 +197,8 @@ wb.save('modified.xlsx')
 `
 
 ## Recalculating formulas
-Excel files created or modified by openpyxl contain formulas as strings but not calculated values. Use the provided ecalc.py script to recalculate formulas:
+Excel files created or modified by openpyxl contain formulas as strings but not calculated values. Use the provided 
+ecalc.py script to recalculate formulas:
 
 `ash
 python recalc.py <excel_file> [timeout_seconds]
@@ -260,13 +263,32 @@ The script returns JSON with error details:
 - Cell indices are 1-based (row=1, column=1 refers to cell A1)
 - Use data_only=True to read calculated values: load_workbook('file.xlsx', data_only=True)
 - **Warning**: If opened with data_only=True and saved, formulas are replaced with values and permanently lost
-- For large files: Use ead_only=True for reading or write_only=True for writing
+- For large files: Use ead_only=True for reading or write_only=True for writing
 - Formulas are preserved but not evaluated - use recalc.py to update values
 
 ### Working with pandas
 - Specify data types to avoid inference issues: pd.read_excel('file.xlsx', dtype={'id': str})
 - For large files, read specific columns: pd.read_excel('file.xlsx', usecols=['A', 'C', 'E'])
 - Handle dates properly: pd.read_excel('file.xlsx', parse_dates=['date_column'])
+
+### CRITICAL: Windows Encoding & Turkish Character Handling
+When writing or executing Python scripts that read, analyze, or print Excel/CSV data containing Turkish characters (e.g., `ı`, `ş`, `ğ`, `ö`, `ç`, `ü`) on Windows systems, you MUST prevent `UnicodeEncodeError` (e.g. `'charmap' codec can't encode character`) failures:
+1. **Configure Environment Variable**: Always run python commands with the UTF-8 environment variable set:
+   - PowerShell: `$env:PYTHONIOENCODING="utf-8"; python ...`
+2. **Reconfigure Python stdout/stderr**: Add these lines at the very beginning of your Python script before any print statements or Pandas operations:
+   ```python
+   import sys, io
+   if sys.stdout.encoding != 'utf-8':
+       sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+   if sys.stderr.encoding != 'utf-8':
+       sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+   ```
+3. **Dump to UTF-8 JSON Files**: For extraction and logging, avoid dumping raw print lines to standard out. Instead, save structured data to a JSON file using explicit encoding and `ensure_ascii=False`:
+   ```python
+   import json
+   with open('data_output.json', 'w', encoding='utf-8') as f:
+       json.dump(extracted_metrics, f, ensure_ascii=False, indent=2)
+   ```
 
 ## Code Style Guidelines
 

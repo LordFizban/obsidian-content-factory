@@ -1,8 +1,9 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-06-06
 source_count: 1
+status: dormant
 related:
   - "[[teresa_torres]]"
 tags: [agile, manager-partnership]
@@ -24,6 +25,12 @@ From Teresa Torres: The habit of a product trio engaging with at least one custo
 
 ## Evolution
 - **Apr 2026:** Ingested to support the Manager Partnership pillar.
+
+## Counter-Arguments & Data Gaps
+
+1. **Against:** Weekly interviews can lead to customer fatigue or cause the team to over-index on feedback from a few vocal users (recency/sampling bias), disrupting structured roadmap execution.
+2. **Data Gap:** Measure how many sprint goals are disrupted by continuous user feedback vs. quarterly research.
+3. **Bias Check:** Discovery literature assumes user contact is always beneficial. We should audit cases where continuous feedback caused scope creep.
 
 ## Open Questions
 - N/A

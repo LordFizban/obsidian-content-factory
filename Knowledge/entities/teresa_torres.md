@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-06-07
 source_count: 1
 related:
   - "[[opportunity_solution_tree]]"

@@ -1,8 +1,9 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-19
-source_count: 9
+updated: 2026-07-22
+source_count: 21
+status: active
 related:
   - "[[lighthouse_leadership]]"
   - "[[stories_vs_frameworks]]"
@@ -24,19 +25,38 @@ A signature framework describing two leadership modes for Scrum Masters:
 
 Kaan's brand arc is explicitly **Warrior → Statesman** — his early career was Warrior-mode ("The Warrior's Mistake"), and his current philosophy is Statesman-mode with Warrior reserves.
 
-## Content Usage
+## Evidence
 
-| Post | Date | How Used | Pillar |
+| Post | Date | Result | Supports/Contradicts |
 |:---|:---|:---|:---|
-| The Warrior's Mistake | 2025 | Origin story — first major lesson | First 100 Days |
-| Decision Drift | 2026-02-17 | Warrior impulse vs. Statesman patience in sprint decisions | Psychological Safety |
-| Vendor Over-Commitment | 2026-02-19 | SM as diagnostic observer (Statesman mode) | Manager Partnership |
-| Business Owner Story | 2026-02-27 | Listening before prescribing (Statesman) | Manager Partnership |
-| The Dependency Dynamic | 2026-04-10 | Warrior fills the gap, Statesman holds it | Manager Partnership |
-| The Facilitator's Silence (draft) | 2026-04-15 | Deliberate absence — Statesman tests team's Shu-Ha-Ri Ri state | Psychological Safety |
-| The Strength You Build in Private (draft) | 2026-04-17 | Private channel over public coaching — Statesman builds PO authority invisibly | Manager Partnership |
-| The Same Problem, From Different Floors (draft) | 2026-04-21 | **Warrior mode** — draws boundary, says no to PO, protects facilitation space. First Warrior post since Q1. | Manager Partnership |
-| TR Saygı, Nazik Olmak Değildir (draft) | 2026-04-23 | Warrior energy — "zorlamak" (challenging) as respect, not punishment | MP / PS bridge |
+| The Warrior's Mistake | 2025 | ~300 imps | Supports (Origin story - Warrior mode failure) |
+| Decision Drift | 2026-02-17 | ~400 imps | Supports (Warrior impulse vs. Statesman patience) |
+| Vendor Over-Commitment | 2026-02-19 | ~350 imps | Supports (Statesman as diagnostic observer) |
+| Business Owner Story | 2026-02-27 | ~225 imps | Supports (Statesman listening mode) |
+| The Dependency Dynamic | 2026-04-10 | 612 imps | Supports (Statesman holding space) |
+| The Facilitator's Silence | 2026-04-15 | 419 imps | Supports (Statesman deliberate absence) |
+| The Strength You Build in Private | 2026-04-17 | 460 imps | Supports (Statesman private PO coaching) |
+| The Same Problem, From Different Floors | 2026-04-21 | 264 imps | Supports (Warrior drawing boundary to protect team) |
+| Your Sprint Has a Backlog You Can't See | 2026-04-29 | 227 imps | Supports (Statesman diagnosing shadow backlog) |
+| Perception Is Strong, Sight Is Weak | 2026-05-12 | 709 imps | Supports (Statesman strategic gaze in conflict) |
+| The Org Chart Is Choking Your Craft | 2026-05-14 | 467 imps | Supports (Statesman auditing ceremony overhead) |
+| TR Dependency Dynamic | 2026-05-21 | 773 imps | Supports (Turkish translation reach) |
+| TR Facilitator's Silence | 2026-05-26 | 22,983 imps | Supports (Statesman absence goes viral in TR) |
+| TR PO Private Strength | 2026-05-28 | 1,718 imps | Supports (Turkish translation reach) |
+| TR Perception Is Strong | 2026-06-02 | 793 imps | Supports (Turkish translation reach) |
+| The Sprint That Ate Itself | 2026-06-04 | 4,430 imps | Supports (Warrior-Statesman Hybrid breakout) |
+| The Inner Citadel | 2026-06-09 | 290 imps | Supports (Statesman composure) |
+| The Favorite Weapon | 2026-06-11 | 203 imps | Supports (Statesman retro adaptation) |
+| When You Are the Bottleneck | 2026-06-16 | 216 imps | Supports (Warrior confronting protection risk) |
+| The Rescue Nobody Asked For | 2026-06-18 | ~250 imps | Supports (Statesman choosing restraint) |
+| Takımın Gölgesi | 2026-07-09 | 379 imps (13d, tracking) | Supports (Statesman otonomi ve Facilitator Restraint, 2 saves) |
+| The Hero Trap | 2026-07-23 | Draft | Supports (Tech Lead Warrior solo mode vs. Statesman multiplier coaching) |
+
+## Evolution
+- **2025:** Conceptualized as pure dichotomy (Warrior = bad, Statesman = good).
+- **Q1 2026:** Evolved to appreciate Warrior mode as a necessary reserve for boundary setting (e.g. Same Problem).
+- **Q2 2026:** Integrated as a hybrid model (e.g. Sprint That Ate Itself) combining Statesman strategy with Warrior urgency.
+- **Jul 2026:** Applied to "Takımın Gölgesi" (Turkish original) to show how Statesman designs system-level triggers (Andon cord) to foster team-led efficiency instead of acting as a heroic Savaşçı.
 
 ## Current Rule
 

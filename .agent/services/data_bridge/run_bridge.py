@@ -6,6 +6,7 @@ Usage:
     py run_bridge.py --auto       # Auto-detect latest export and update logs
     py run_bridge.py --dry-run    # Show what would be updated without writing
     py run_bridge.py --query X    # Query specific metric (for agent integration)
+    py run_bridge.py --digest     # Generate monthly performance digest
 """
 import argparse
 import sys
@@ -18,6 +19,7 @@ from src.ingest import find_latest_export, load_and_normalize
 from src.markdown_io import update_analytics_log
 from src.renderer import update_dashboard
 from src.config import ANALYTICS_LOG
+from src.digest import generate_digest
 
 
 def main():
@@ -26,9 +28,15 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Show what would be updated")
     parser.add_argument("--query", type=str, help="Query a specific metric (e.g., 'impressions')")
     parser.add_argument("--file", type=str, help="Specify a specific Excel file to process")
+    parser.add_argument("--digest", type=str, nargs='?', const='June', help="Generate monthly performance digest (specify month, default: June)")
     
     args = parser.parse_args()
     
+    # Handle digest independently
+    if args.digest:
+        success = generate_digest(args.digest)
+        return 0 if success else 1
+        
     # Find or specify file
     if args.file:
         filepath = Path(args.file)

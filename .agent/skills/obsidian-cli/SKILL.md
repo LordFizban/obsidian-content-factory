@@ -1,4 +1,5 @@
 ﻿---
+version: 15.7.0
 name: obsidian-cli
 description: "Use the Obsidian CLI to read, create, search, and manage vault content. This skill is configured to use the Local REST API to bypass system command conflicts."
 risk: unknown

@@ -1,4 +1,5 @@
 ﻿---
+version: 15.7.0
 name: json-canvas
 description: Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections.
 risk: unknown

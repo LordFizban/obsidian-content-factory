@@ -1,8 +1,9 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-05
+updated: 2026-06-06
 source_count: 2
+status: active
 related:
   - "[[360_brew]]"
   - "[[stories_vs_frameworks]]"
@@ -47,6 +48,6 @@ Publishing more than 2 posts per week on LinkedIn produces *lower* total impress
 
 ## Open Questions
 
-1. Does the 2-post limit apply when one post is Turkish? (Turkish posts may target a different audience segment and not cannibalize.)
+1. Does the 2-post limit apply when one post is Turkish? (Resolved: NO. May Turkish Takeover (3 TR in 8d) = 17,047 combined impressions, proving that stacked localization content does not cannibalize English originals or cause local audience fatigue.)
 2. Would 3 posts/week work if spaced Mon-Wed-Fri instead of clustered?
 3. Is the effect platform-wide or profile-specific? (Higher-follower accounts may have a larger distribution budget.)

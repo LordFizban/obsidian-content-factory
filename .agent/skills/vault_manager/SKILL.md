@@ -36,8 +36,11 @@ Update the `Published Articles Archive.md` (or Excel log) when a new article is 
     ### [Title]
     **Published:** [Date]
     **Pillar:** [Pillar Name]
-    **Kind:** [TOFU/MOFU/BOFU]
+    **Kind:** Text Post
     **LinkedIn:** [Link]
+    **Activity ID:** [ID]
+    **Frameworks:** [Frameworks]
+    **Key Themes:** [Themes]
     ```
 
 ### 3. Orphan Hunt
@@ -46,6 +49,10 @@ Identify files in `Drafts` that haven't been touched in >30 days.
 
 * **Action:** List them.
 * **Decision:** Ask user: "Archive or Delete?"
+
+## 🎯 Primary Target Vault
+All vault operations must write to and read from the live Obsidian Vault path:
+C:\Users\kaann\Documents\Obsidian Vault\LinkedIn-Content
 
 ## 📝 Procedures
 

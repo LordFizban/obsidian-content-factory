@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-06-07
 source_count: 1
 related:
   - "[[the_inner_citadel]]"
@@ -22,6 +22,10 @@ The Roman Emperor and Stoic philosopher. *Meditations* is his personal diary wri
 
 ## References
 - Ingested on 2026-04-04 (Source: EPUB in `raw/meditations.epub`).
+- **The Inner Citadel (scheduled 2026-06-09):** Book 8.47 quote used. First 2026 content use. Reference 1/2 for Q2.
+
+## Strategy Notes
+- **Cooling Policy:** 1/2 used in Q2. Available for one more reference.
 
 ## Cross-References
 - [[the_inner_citadel]]

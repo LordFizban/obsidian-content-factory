@@ -23,9 +23,13 @@ description: Lifecycle workflow for post-launch operations, analytics ingestion,
 
 5. **Phase 5: Knowledge Compound (Knowledge Ledger)**
     * **Input:** Analytics data from Phases 2-3 + post metadata.
-    * **Action:** Identify top and bottom performing posts of the period.
-    * **Action:** For each: update relevant concept pages in `Knowledge/concepts/` with performance data in Evidence tables (e.g., update `stories_vs_frameworks.md`, `cta_experiments.md`, `authority_borrowing.md`).
-    * **Action:** If a new empirical rule emerges (e.g., a new format outperforms expectations), add it to `Knowledge/rules.md` and flag any skills that should be updated in the Divergence Alerts section.
-    * **Action:** Update entity pages if a thought leader was referenced (update refs table, adjust cooling status).
-    * **Action:** Append entry to `Knowledge/log.md` with format: `## [YYYY-MM-DD] archive-compound | Period`.
-    * **Output:** Updated Knowledge Ledger ready for next `/produce` Phase -1.
+    * **Action:** Execute the **Archive Compound Checklist**:
+      - [ ] Identify top and bottom performing posts of the period.
+      - [ ] For top 3 posts: update their referenced concepts' `Evidence` tables with final impressions, saves, and date.
+      - [ ] For bottom 3 posts: update their referenced concepts' `Evidence` tables and add analytical notes explaining the underperformance.
+      - [ ] Confirm or reject any `🧪 Proposed` rules in `Knowledge/rules.md` based on observed metrics.
+      - [ ] Update `updated: YYYY-MM-DD` and increment `source_count` in YAML frontmatter for all updated concepts.
+      - [ ] Update entity pages if an external thought leader was tagged (update references table, adjust cooling status).
+      - [ ] If analytics reveal a wider, cross-concept trend → file a synthesis page in `Knowledge/synthesis/` (Target: 1 synthesis page per month).
+      - [ ] Append to `Knowledge/log.md` with format: `## [YYYY-MM-DD] archive-compound | Period`.
+    * **Output:** Updated and validated Knowledge Ledger, ready for the next `/produce` Phase -1 scan.

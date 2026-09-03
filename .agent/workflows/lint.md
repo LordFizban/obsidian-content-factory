@@ -13,16 +13,19 @@ Triggered monthly or quarterly. Scans the Knowledge Ledger for staleness, incons
 
 ## Steps
 
-1. **Staleness Check**
-    * **Action:** Scan all entity and concept pages. Flag any where `updated` in frontmatter is >60 days old.
-    * **Output:** List of stale pages with last update dates.
+1. **Staleness & Bias Check**
+    * **Action:** Scan all active concept and entity pages. Flag any active page where `updated` in frontmatter is >60 days old.
+    * **Action:** Check all concept pages for a populated `Counter-Arguments & Data Gaps` section. Flag any that are missing or empty as a bias risk.
+    * **Output:** List of stale active pages and bias alerts.
 
 2. **Skill Drift Detection**
     * **Action:** Read `Knowledge/rules.md` (especially the Divergence Alerts section).
     * **Action:** Compare rules against the following active SKILL.md files:
-      - `.agent/skills/content_strategist/SKILL.md` â€” pillar targets, 360 Brew rules, platform rules
-      - `.agent/skills/editor_in_chief/SKILL.md` â€” scoring rubric, AI-speak blacklist
-      - `.agent/skills/vault_manager/SKILL.md` â€” lifecycle paths
+      - `.agent/skills/content_strategist/SKILL.md` — pillar targets, 360 Brew rules, platform rules
+      - `.agent/skills/editor_in_chief/SKILL.md` — scoring rubric, AI-speak blacklist
+      - `.agent/skills/vault_manager/SKILL.md` — lifecycle paths
+      - `.agent/skills/agile_coach/SKILL.md` - roast, simulation, frameworks
+      - `.agent/skills/localization_lead/SKILL.md` - Turkish, translation, glossary
     * **Output:** List of divergences with specific line references.
 
 3. **Cross-Reference Check (Obsidian CLI)**
@@ -49,25 +52,25 @@ Triggered monthly or quarterly. Scans the Knowledge Ledger for staleness, incons
 6. **Generate Lint Report**
     * **Action:** Compile findings into a structured report:
       ```markdown
-      # Knowledge Lint Report â€” [Date]
+      # Knowledge Lint Report — [Date]
 
-      ## ðŸ”´ Stale Pages (>60 days)
+      ## 🔴 Stale Pages (>60 days)
       - [list]
 
       ## âš ï¸ Skill Divergences
       | Skill | Skill Value | Ledger Value | Suggested Action |
       |:---|:---|:---|:---|
 
-      ## ðŸ”— Link Health
+      ## 🔗 Link Health
       - Broken links: [list]
       - Missing pages: [list]
       - Orphan pages: [list]
 
-      ## ðŸ“Š Evidence Gaps
+      ## 📊 Evidence Gaps
       - Under-evidenced concepts: [list]
       - Answerable open questions: [list]
 
-      ## âœ… Suggested Actions
+      ## ✅ Suggested Actions
       1. [prioritized action items]
       ```
     * **Output:** Present report to user for review.

@@ -1,13 +1,16 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-19
-source_count: 6
+updated: 2026-07-28
+source_count: 10
+status: active
 related:
   - "[[fred_deichler]]"
   - "[[danish_soomro]]"
   - "[[mark_graban]]"
   - "[[esther_derby]]"
+  - "[[miyamoto_musashi]]"
+  - "[[jurgen_appelo]]"
   - "[[360_brew]]"
 tags: [growth, follower-conversion, linkedin-strategy]
 ---
@@ -26,7 +29,13 @@ Referencing, reposting, or tagging established thought leaders to leverage their
 | Scrum.org AI Lead Repost | 2026-02-21 | Repost + Comment | 312 | +1 | Brand alignment |
 | Fred Deichler AI Meeting | 2026-02-22 | Repost + Commentary | 489 | +2 | 25 comments from leaders. Breakthrough. |
 | Mark Graban / Kaizen Bridge | 2026-02-10 | Attribution | 332 | +1 | Healthcare domain match |
-| **Esther Derby / Dependency** | **2026-04-09** | **Original + @mention** | **538 (10d)** | **0** | **3 comments incl. Esther herself. Sahip/Owner 2.1%. Amsterdam reach. Highest-impression Q2 post.** |
+| **Esther Derby / Dependency** | **2026-04-09** | **Original + @mention** | **612 (final)** | **0** | **3 comments incl. Esther herself. Q2 #1 EN until May. Sahip/Owner 1.7%. Boston+Brussels reach.** |
+| **Musashi / Perception Is Strong** | **2026-05-12** | **Book reference** | **709 (final)** | **0** | **New Q2 English #1. Global reach (Istanbul 15.1%, Bangalore 7.4%). QA audience discovery.** |
+| **Jurgen Appelo / Org Chart** | **2026-05-14** | **Book reference** | **467 (final)** | **0** | **First Appelo reference. Moderate performance. Most international EN post until Perception.** |
+| **Phoenix Project / Sprint Ate Itself** | **2026-06-04** | **Book reference** | **4,430 (final)** | **0** | **Book-source AB. Hitted English record. 7 saves! Save-worthy CTA.** |
+| **Marcus Aurelius / Inner Citadel** | **2026-06-09** | **Book reference** | **290 (final)** | **0** | **Stoic philosophy AB. Marcus Aurelius Book 8.47. Underperformed.** |
+| **Phoenix Project / Bottleneck** | **2026-06-16** | **Book reference** | **216 (final)** | **0** | **2nd Phoenix Project use. Brent character. Skill vs. permission differentiation. Reference 2/2 for June.** |
+| **Esther Derby / The Rescue** | **2026-06-18** | **Original + @mention** | **186 (final)** | **0** | **Esther Derby 2nd use. Underperformed at 186 imps.** |
 | Pure own-voice weeks | Various | Original | Variable | 0 | Zero follower growth without AB |
 
 ## Current Rule
@@ -45,7 +54,14 @@ Referencing, reposting, or tagging established thought leaders to leverage their
 - **Mar 2026:** Cooling policy introduced to avoid dependency on any single voice. Max 2 refs/person/quarter.
 - **Apr 2026:** Esther Derby Authority Borrowing — original post with @mention (not repost). **First engagement from a globally recognized thought leader.** She commented directly with a nuanced addition about "constraints that bound autonomy." Grew to **538 impressions in 10 days** (up from 375/3d). 2.6x velocity vs. own-voice "Meeting Before the Meeting" (206/12d). Scrum Uzmanı + Amsterdam Area appeared in demographics — cross-network reach confirmed.
 - **Apr 2026 (W16 update):** Follower conversion still 0 despite 538 imprs. AB drives reach + comments but direct follower attribution remains elusive. C-level titles (Sahip/Owner) appeared for first time. Rule #18 🧪 partially supported (2.6x, N=1).
-- **Apr 2026 (W17):** TR "Saygı, Nazik Olmak Değildir" — Graban referansı korunmuş lokalizasyon. Cooling exception: Çeviri orijinal Q1 referansı olduğundan yeni referans sayılmaz.
+- **Apr 2026 (final):** Dependency Dynamic final at **612 impressions** (31 days). Confirmed as Q2 #1 EN post until May. Rule #18 velocity ratio updated.
+- **Apr 2026 (W17):** TR "Saygı" — Graban reference preserved via translation. Cooling exception: translation of Q1 original, not new reference.
+- **May 2026 (W20):** Perception Is Strong — Musashi book AB (not person-tag AB). **660 impressions (19d) — new Q2 English #1**, surpassing Dependency Dynamic (612). First truly international post: Istanbul dropped to 15.1%, Indian cities dominating (Bangalore 7.4%, Pune 4%, Hyderabad 3.4%). QA/testing audience appeared. Book reference AB performs at comparable levels to person-tag AB.
+- **May 2026 (W20):** Jurgen Appelo / Org Chart — **434 impressions (17d)**. Moderate, not a breakout. First Appelo reference. Istanbul 25.6% — most international EN post until Perception.
+- **May 2026 (Rule 18 update):** AB velocity now at **n=3**: Dependency Dynamic 612, Perception Is Strong 660, Org Chart 434. **AB average = 569 vs own-voice average ~240 = 2.4x.** Approaching statistical significance — Rule 18 moved to ✅ Confirmed.
+- **Jun 2026 (W23):** Phoenix Project book-source AB — "The Sprint That Ate Itself" hit **4,430 final impressions** and **7 saves**, setting the new English ATH. Confirming book-source AB is a massive reach/save generator when paired with a save-worthy CTA.
+- **Jun 2026 (W24-W26):** Series of low-reaching English posts (Inner Citadel at 290 imps, Favorite Weapon at 203 imps, Bottleneck at 216 imps, Rescue at 186 imps), showing post-viral drop, seasonal effects, or posting frequency fatigue.
+- **Jul 2026 (W31):** Novel 'Inverted Authority Borrowing' application discovered. The Analyst's Notebook endorsement post lends the author's platform authority to amplify a team member's first article, reversing the typical AB direction. Effectiveness TBD.
 
 ## Counter-Arguments & Data Gaps
 
@@ -59,5 +75,5 @@ Referencing, reposting, or tagging established thought leaders to leverage their
 
 1. Does commenting on a leader's post (without reposting) trigger the same 360 Brew distribution graph?
 2. Is there a threshold of follower count for the tagged person below which Authority Borrowing stops working?
-3. Can Authority Borrowing be combined with Turkish translations for compounded reach?
+3. Can Authority Borrowing be combined with Turkish translations for compounded reach? (Resolved: YES. TR Facilitator's Silence combines authority-derived metaphor translation and achieved 21,316 impressions, confirming massive compounding reach effects.)
 4. Do organizations (Scrum.org, Management 3.0) have a different amplification profile than individuals?

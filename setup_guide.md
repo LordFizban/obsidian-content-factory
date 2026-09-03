@@ -13,14 +13,30 @@ This guide will help you set up an automated content factory in Obsidian, migrat
 
 ## 🧠 Agentic Skills (The AI Team)
 
-This system comes with 6 pre-configured Agentic Skills to help you run the factory:
+This system incorporates 19 pre-configured Agentic Skills to run the factory, split between Custom Core Workflow personas and Community/Utility skills:
 
-1. **Content Strategist**: Repurposing, hook generation, and scheduling.
-2. **Agile Coach**: Critiques drafts and provides framework matching ("Roasting").
-3. **Localization Lead**: Translates content to Turkish with cultural nuance.
-4. **Creative Director**: Converts text articles into video scripts.
-5. **Editor-in-Chief**: QA checks for tone and formatting.
-6. **Vault Manager**: Handles file lifecycle (Draft -> Published -> Archive).
+### Core Workflow Skills (Custom Personas)
+1. **Content Strategist** (`@content_strategist`): Repurposing, hook generation, and scheduling.
+2. **Agile Coach** (`@agile_coach`): Critiques drafts and provides framework roasting.
+3. **Localization Lead** (`@localization_lead`): Translates content to Turkish with cultural nuance.
+4. **Creative Director** (`@creative_director`): Converts text articles into video scripts.
+5. **Editor-in-Chief** (`@editor_in_chief`): QA checks for tone and formatting.
+6. **Vault Manager** (`@vault_manager`): Handles file lifecycle (Draft -> Published -> Archive).
+
+### Community & Utility Skills
+7. **avoid-ai-writing**: Audits drafts to clean out 21 categories of AI writing patterns.
+8. **obsidian-cli**: Command line integrations to query and write vault files.
+9. **xlsx**: Advanced spreadsheet parsing and manipulation.
+10. **obsidian-bases**: Schema validation helper.
+11. **copy-editing**: Supporting copy-editor assistant.
+12. **social-content**: Platform-specific optimizations.
+13. **copywriting**: Sales and marketing copy templates.
+14. **idea-darwin**: Ideation evolutionary sparring partner.
+15. **marketing-psychology**: 70+ marketing psychological principles and checklists.
+16. **seo-content-planner**: Outlining topic clusters.
+17. **json-canvas**: Standard visual mapping node builder.
+18. **obsidian-markdown**: Infrastructure markdown syntax helper.
+19. **skill-sentinel**: Core skills health and dependency scanner.
 
 ## 🔄 The System Workflow
 
@@ -364,3 +380,95 @@ SORT created DESC
 ## 🎉 You're Ready
 
 You now have a fully functional content factory!
+
+---
+
+## Step 8: Antigravity 2.0 Agentic Layer Setup
+
+The Obsidian Content Factory integrates with the **Antigravity 2.0 Agentic Layer**, which acts as an otonom supervisor and execution engine. This layer manages quality assurance, cultural localization, and performance feedback loops.
+
+### 1️⃣ Dynamic Subagent Orchestration
+Instead of overloading a single conversation context, the system utilizes a network of specialized **subagents** spawned dynamically in the background using `define_subagent` and `invoke_subagent` calls:
+
+*   **@agile_coach:** Critiques retrospective plans and strategies using the framework library ("Roasting").
+*   **@editor_in_chief:** Audits drafts to enforce brand voice and clean out AI writing patterns.
+*   **@localization_lead:** Performs nuanced translations of English posts into corporate Turkish.
+*   **@content_strategist:** Generates engaging hooks (Vulnerable, Provocative, Visual) and carousel scripts.
+*   **@vault_manager:** Coordinates file operations (moving drafts, organizing folders, and updating logs).
+
+### 2️⃣ Windows Environment & Turkish Character Handling
+To prevent `UnicodeEncodeError` (charmap) exceptions when parsing LinkedIn analytics files (`.xlsx` or `.csv`) containing Turkish characters (ı, ş, ğ, ç, ö, ü) on Windows, the following coding standards must be applied:
+
+1.  **Forced UTF-8 PowerShell Execution:** Run all Python parsing scripts with the UTF-8 environment variable set:
+    ```powershell
+    $env:PYTHONIOENCODING="utf-8"; python script_name.py
+    ```
+2.  **Stream Reconfiguration:** Reconfigure python standard output/error buffers to UTF-8 at the top of extraction scripts:
+    ```python
+    import sys, io
+    if sys.stdout.encoding != 'utf-8':
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    if sys.stderr.encoding != 'utf-8':
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    ```
+3.  **UTF-8 File Dumps:** Avoid printing raw extracted data to standard output. Instead, write metrics to UTF-8 JSON files using `ensure_ascii=False`:
+    ```python
+    import json
+    with open('data_output.json', 'w', encoding='utf-8') as f:
+        json.dump(metrics, f, ensure_ascii=False, indent=2)
+    ```
+
+### 3️⃣ Behavior Safeguards via JSON Hooks
+To prevent AI writing artifacts (e.g., words like *"delve"*, *"tapestry"*, *"in conclusion"*) and enforce frontmatter schemas before any content is saved, we utilize `.agent/hooks.json`. These hooks intercept writing requests and reject drafts that violate brand constraints, forcing the AI to self-correct before saving.
+
+### 4️⃣ Background Scheduled Tasks (Optional)
+To automate routine audits or data ingests, you can schedule background cron jobs using the time-delay `schedule` tool. For example, a bi-weekly health check (`/lint`) or weekly analytics log update (`/archive`) can be configured to run asynchronously in the background.
+*Note: Scheduled background tasks are currently supported but not active; they can be initialized as needed using the `schedule` command.*
+
+---
+
+## Step 9: The LLM Wiki / Memory Layer (Knowledge Ledger)
+
+Based on Andrej Karpathy's LLM Wiki concept, the Content Factory implements a persistent **Memory Layer** (located in the `Knowledge/` directory) that sits between raw experience (analytics, logs, raw ebooks) and content production. This prevents valuable insights from evaporating into chat history and allows knowledge to compound over time.
+
+### 1️⃣ The Directory Architecture
+The Knowledge Ledger is structured as follows:
+*   `SCHEMA.md`: Standard conventions, templates, and operational instructions.
+*   `index.md`: Master catalog of all active entities and concepts (read first by the LLM).
+*   `log.md`: Chronological log of all system upgrades, ingests, and production cycles.
+*   `rules.md`: Evolving decision rules categorized by status (`🧪 Proposed`, `✅ Confirmed`, `❌ Rejected`).
+*   `entities/`: Dossiers on referenced thought leaders, algorithms (e.g., `360_brew`), or tools.
+*   `concepts/`: Strategic patterns (e.g., `stories_vs_frameworks`, `authority_borrowing`) containing empirical evidence and counter-arguments to avoid confirmation bias.
+*   `synthesis/`: Cross-concept analyses filed back to the vault during research.
+
+### 2️⃣ The Compounding Loop (Query ➔ File Back)
+Knowledge is not static; it grows dynamically through two primary operations:
+
+```
+                  ┌─────────────────────────────────────┐
+                  │          Raw Experience             │
+                  │   (Drafting Posts & Ingesting Data) │
+                  └──────────────────┬──────────────────┘
+                                     │
+                                     ▼
+        ┌────────────────────────────────────────────────────────┐
+        │ /produce Phase 5: Draft Compound                       │
+        │ - Proposes new rules into rules.md (🧪 Proposed)        │
+        │ - Files new synthesis notes (Query ➔ File Back)        │
+        └────────────────────────────┬───────────────────────────┘
+                                     │
+                                     ▼
+                  ┌─────────────────────────────────────┐
+                  │       Knowledge Ledger (Wiki)       │
+                  │  (Persistent, Evolving Memory Layer)│
+                  └──────────────────┬──────────────────┘
+                                     │
+                                     ▼
+        ┌────────────────────────────────────────────────────────┐
+        │ /archive Phase 5: Archive Compound                     │
+        │ - Updates concept evidence tables with actual numbers  │
+        │ - Promotes/Graduates rules to ✅ Confirmed or ❌ Rejected│
+        └────────────────────────────────────────────────────────┘
+```
+
+This cycle ensures that every piece of content published directly refines the strategic rules guiding future drafts, creating a self-optimizing writing engine.

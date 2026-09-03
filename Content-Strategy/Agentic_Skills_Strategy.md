@@ -2,14 +2,14 @@
 
 This document tracks the deployment and lifecycle of agentic skills (digital employees) within the Content Factory. It outlines our 5-Phase strategy for expanding from a core team to a fully automated multi-platform production engine, plus the Knowledge Layer that makes the system self-improving.
 
-## ðŸ›ï¸ Architecture: The 4-Layer Model
+## 🏛️ Architecture: The 4-Layer Model
 
 Our system is organized into four functional layers:
 
-1. **Strategic Layer (Intelligence)** â€” Goal setting, pillar development, and high-level design.
-2. **Production Layer (Execution)** â€” Writing, localizing, and formatting content.
-3. **Operations Layer (Automation)** â€” File management, publishing, and analytics.
-4. **Knowledge Layer (Memory)** â€” Persistent, LLM-maintained wiki that compounds strategic insights across sessions.
+1. **Strategic Layer (Intelligence)** — Goal setting, pillar development, and high-level design.
+2. **Production Layer (Execution)** — Writing, localizing, and formatting content.
+3. **Operations Layer (Automation)** — File management, publishing, and analytics.
+4. **Knowledge Layer (Memory)** — Persistent, LLM-maintained wiki that compounds strategic insights across sessions.
 
 ```mermaid
 graph TD
@@ -56,7 +56,7 @@ The Knowledge Layer implements Karpathy's [LLM-Wiki pattern](https://gist.github
 | Component | Path | Purpose |
 |:---|:---|:---|
 | Schema | `Knowledge/SCHEMA.md` | Governing conventions, templates, and LLM maintainer rules |
-| Index | `Knowledge/index.md` | Master catalog â€” LLM reads this first before any operation |
+| Index | `Knowledge/index.md` | Master catalog — LLM reads this first before any operation |
 | Rules | `Knowledge/rules.md` | 16 confirmed + 1 proposed decision rules with maturity states |
 | Log | `Knowledge/log.md` | Append-only audit trail for all operations |
 | Entities | `Knowledge/entities/` | 9 pages (persons, books, algorithms, organizations) |
@@ -69,14 +69,14 @@ The Knowledge Layer implements Karpathy's [LLM-Wiki pattern](https://gist.github
 - **Phase -1 (Knowledge Scan):** `/produce` reads the Ledger before drafting.
 - **Phase 5 (Draft Compound):** `/produce` writes insights back after Editor review.
 - **Archive Compound:** `/archive` populates Evidence tables with real analytics.
-- **Rule Maturity:** ðŸ§ª Proposed → ✅ Confirmed → âŒ Rejected lifecycle.
+- **Rule Maturity:** 🧪 Proposed → ✅ Confirmed → ❌ Rejected lifecycle.
 - **Counter-Arguments:** Every concept page must challenge its own validity.
 - **File-Back Loop:** Valuable syntheses from queries are filed as new wiki pages.
-- **Obsidian Sync:** Directory junction â€” changes appear in Obsidian instantly.
+- **Obsidian Sync:** Directory junction — changes appear in Obsidian instantly.
 
 ---
 
-## ðŸŒŒ Community Repository Source
+## 🌌 Community Repository Source
 
 All community-sourced skills originate from:
 
@@ -85,7 +85,7 @@ All community-sourced skills originate from:
 | Attribute | Value |
 |-----------|-------|
 | **Repo** | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |
-| **Current Version** | v10.5.0 |
+| **Current Version** | v11.0.0 (Apr 20, 2026) |
 | **Total Skills** | 1,372+ |
 | **License** | MIT |
 | **Install Path** | `.agent/skills/` |
@@ -110,7 +110,7 @@ All community-sourced skills originate from:
 
 ---
 
-## ðŸ“ˆ Expansion Roadmap
+## 📈 Expansion Roadmap
 
 ### Phase 1: Core Lifecycle Excellence (COMPLETED)
 
@@ -128,7 +128,7 @@ All community-sourced skills originate from:
 | **[Idea Darwin](file:///c:/Users/kaann/.gemini/antigravity/brain/d6e3ae1d-c6f0-4f66-af5a-5d51ea3f2cc4/Automation%20with%20Obsidian/.agent/skills/idea-darwin/SKILL.md)** | ✅ Installed | Strategic | Community | [NEW] 6-dimensional idea scoring (P1)
 | ~~Writing Plans~~ | ❌ Not installed | Strategic | Community | Minimal value for short-form content
 | ~~D3 Visualization~~ | ❌ Removed | Production | Community | No longer found upstream (2026-04-20)
-| ~~Document Processing~~ | âŒ Removed (2026-02-20) | Production | Community | Zero usage, not found upstream |
+| ~~Document Processing~~ | ❌ Removed (2026-02-20) | Production | Community | Zero usage, not found upstream |
 
 ### Phase 2: Core Capability Sync (COMPLETED)
 
@@ -154,7 +154,7 @@ All community-sourced skills originate from:
 | ~~Content Creator~~ | ❌ Not installed | Production | Community | Overlaps with copywriting/social
 | ~~Prompt Engineer~~ | ❌ Not installed | Strategic | Community | Ad-hoc meta-tool preference
 
-### Phase 3.5: Knowledge Layer (COMPLETED â€” 2026-04-05)
+### Phase 3.5: Knowledge Layer (COMPLETED — 2026-04-05)
 
 **Objective:** Make the system self-improving by adding persistent memory.
 
@@ -165,11 +165,11 @@ All community-sourced skills originate from:
 | **`/lint` workflow** | ✅ Active | Health-check for staleness, skill drift, orphan pages, bias risk |
 | **Draft Compound** (Phase 5 of `/produce`) | ✅ Active | Write-back: files rules, stub entities, and synthesis during drafting |
 | **Archive Compound** (Phase 5 of `/archive`) | ✅ Active | Populates Evidence tables with real analytics; confirms/rejects rules |
-| **Rule Maturity States** | ✅ Active | ðŸ§ª Proposed → ✅ Confirmed → âŒ Rejected lifecycle |
+| **Rule Maturity States** | ✅ Active | 🧪 Proposed → ✅ Confirmed → ❌ Rejected lifecycle |
 | **Counter-Arguments & Data Gaps** | ✅ Active | Anti-confirmation-bias mechanism on all concept pages |
 | **Query → File Back** | ✅ Active | Synthesis pages preserve cross-concept analyses |
 | **Dataview Dashboard** | ✅ Active | Live Obsidian dashboard with stale page detection |
-| **Obsidian Symlink** | ✅ Active | Directory junction â€” zero-sync between repo and vault |
+| **Obsidian Symlink** | ✅ Active | Directory junction — zero-sync between repo and vault |
 
 ### Phase 4: Workflow Automation (Future Expansion)
 
@@ -189,7 +189,7 @@ All community-sourced skills originate from:
 
 ---
 
-## ðŸ”„ Workflow Integration Map
+## 🔄 Workflow Integration Map
 
 | Workflow | Knowledge Layer Hooks | Skills Invoked |
 |:---|:---|:---|
@@ -200,16 +200,15 @@ All community-sourced skills originate from:
 
 ---
 
-## ðŸ› ï¸ Skill Maintenance & Governance
+## 🛠️ Skill Maintenance & Governance
 
 - **Community Sync:** Every quarter, compare local versions against [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills).
 - **Customization:** Core Team skills (1-6) are customized for brand voice and should only be updated manually.
-- **Knowledge Precedence:** Skills are operational constants; Knowledge Ledger is the dynamic layer. When they diverge, `/lint` flags it â€” skills are never auto-updated.
+- **Knowledge Precedence:** Skills are operational constants; Knowledge Ledger is the dynamic layer. When they diverge, `/lint` flags it — skills are never auto-updated.
 - **Verification:** All new skill deployments must be verified with `ls -R .agent/skills` and confirmed valid metadata.
 
 ---
 
-*Last Updated: 2026-04-20*
+*Last Updated: 2026-04-20 (Ecosystem Upgrade)*
 *Community Repo Version at Last Check: v10.5.0*
 *Knowledge Layer Version: v2 (counter-arguments, Dataview, rule maturity, file-back)*
-

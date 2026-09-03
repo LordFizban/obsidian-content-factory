@@ -18,8 +18,8 @@ Check out the [Setup Guide](setup_guide.md) to build your factory from scratch.
 
 ## 📂 Repository Structure
 
-- `Obsidian_Workflow_Artifacts/`: Contains the core automation logic.
-- `setup_guide.md`: Step-by-step instructions.
+- `.agent/`: Contains the core automation logic, workflows, agentic skills, rules, and Python data bridge services.
+- `setup_guide.md`: Step-by-step instructions for Obsidian Content Factory setup.
 - `content_factory_infographic.png`: Visual overview of the system.
 
 ## 🤝 Contributing

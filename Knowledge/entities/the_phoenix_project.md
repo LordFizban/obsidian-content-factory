@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-07-22
 source_count: 1
 related:
   - "[[four_types_of_work]]"
@@ -22,10 +22,18 @@ The definitive 2013 novel by Gene Kim, Kevin Behr, and George Spafford introduci
 ## References
 - Ingested on 2026-04-04 (Source: EPUB in `raw/the_phoenix_project.epub`).
 
+## Engagement / Reference Log
+
+| Post | Date | How Used |
+|:---|:---|:---|
+| The Sprint That Ate Itself | June 4, 2026 | First content use. Four Types of Work applied as analytical lens. **4,430 imps (final)**. |
+| When You Are the Bottleneck | June 16, 2026 | 2nd content use. Brent character. Skill vs. permission differentiation. **216 imps (final)**. |
+
 ## Cross-References
 - [[four_types_of_work]]
 - [[hero_bottleneck]]
 - [[the_three_ways]]
 
 ## Status
-**✅ Active** — Excellent source for quotes and frameworks in Q2.
+**❄️ Cooled (June) / Resets in July** — 2/2 June references used (Sprint That Ate Itself, When You Are the Bottleneck). Resets for July.
+- **The Hero Trap** (July 23, 2026) — Draft. Second content use. Connects Brent constraint to Tech Lead goodwill / hero syndrome.

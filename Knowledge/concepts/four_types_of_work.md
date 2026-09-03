@@ -1,8 +1,9 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-06-06
 source_count: 1
+status: active
 related:
   - "[[the_phoenix_project]]"
 tags: [framework, metrics, continuous-improvement]
@@ -21,13 +22,28 @@ A categorisation framework from *The Phoenix Project* stating that IT work falls
 | Post | Date | Result | Supports/Contradicts |
 |:---|:---|:---|:---|
 | N/A | 2026-04-04 | Ingested | Source validation |
+| The Sprint That Ate Itself | 2026-06-04 | 1,306/2d (tracking) | Supports (CI framework as diagnostic lens) |
 
 ## Current Rule
 - Use this framework to articulate why "Vertical Slicing" and "Done" matter — they prevent Type 4 work.
 - Connect this to the Author Profile metric: "Reduced Unplanned Work from 28% to 12%". This is proof of Kaan solving the exact problem *The Phoenix Project* describes.
 
+## Content Usage / Cross-References
+
+| Post | Date | How Used |
+|:---|:---|:---|
+| The Sprint That Ate Itself | W23 Thu, June 4 | First content use. SM maps sprint data against the four types, discovers barely half is planned business work. Framework used as analytical lens, not academic citation. |
+
 ## Evolution
 - **Apr 2026:** Ingested into Ledger as vocabulary for the Continuous Improvement and Manager Partnership pillars.
+- **Jun 2026:** First content use in "The Sprint That Ate Itself." Framework applied as analytical lens — SM maps real sprint data against the four types to diagnose root cause. Moved from theoretical vocabulary to operational diagnostic tool.
+
+
+## Counter-Arguments & Data Gaps
+
+1. **Against:** The 4-type classification is operations-centric and can be difficult for non-technical POs or business owners to grasp. Over-classifying can create administrative overhead for the team.
+2. **Data Gap:** Track whether separating Type 2 (internal IT) and Type 3 (changes) actually leads to better decision-making or just administrative fatigue.
+3. **Bias Check:** Gene Kim's IT Ops model assumes stable product structures. In high-uncertainty startup contexts, the distinction between "business work" and "changes" is highly blurred.
 
 ## Open Questions
 - How do we frame Type 2 work (Internal IT) to business stakeholders (Manager Partnership) without sounding like we are hiding effort?

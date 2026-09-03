@@ -1,8 +1,9 @@
 ---
 type: concept
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-06-06
 source_count: 1
+status: reserve
 related:
   - "[[teresa_torres]]"
 tags: [decision-making, manager-partnership]
@@ -24,6 +25,12 @@ From Teresa Torres: A decision-making principle. Humans are susceptible to confi
 
 ## Evolution
 - **Apr 2026:** Ingested into Ledger as a tool against Decision Drift.
+
+## Counter-Arguments & Data Gaps
+
+1. **Against:** Generating multiple options in high-speed startup or crisis environments can cause analysis paralysis or slow down critical decision-making. Sometimes a simple "yes/no" (whether or not) is required to maintain operational speed.
+2. **Data Gap:** Needs comparative data on decision-making speed and outcome quality under both models in real-world Scrum teams.
+3. **Bias Check:** Teresa Torres' discovery-heavy framework naturally deprioritizes rapid, trial-and-error execution (Lean/XP).
 
 ## Open Questions
 - N/A

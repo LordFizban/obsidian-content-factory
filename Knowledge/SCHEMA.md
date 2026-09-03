@@ -37,6 +37,7 @@ Every page MUST have YAML frontmatter with these fields:
 ```yaml
 ---
 type: entity | concept | synthesis | source_summary | rule
+status: active | dormant | reserve   # Required for concepts: active = linked to posts; reserve = ingested but unused; dormant = review quarterly
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 source_count: N
@@ -172,6 +173,15 @@ Rules are filed as `🧪 Proposed` during `/produce` Phase 5 (Draft Compound). T
 5. **Populate Counter-Arguments & Data Gaps** for every concept page touched.
 6. Update `index.md` with new/modified pages.
 7. Append entry to `log.md` with format: `## [YYYY-MM-DD] ingest | Source Title`.
+
+### Synthesize (`/synthesize`)
+
+1. Triggered outside of `/produce` to cross-pollinate concepts across books, frameworks, or pillars.
+2. Select 2–4 target concepts from `Knowledge/concepts/`.
+3. Analyze commonalities, structural feedback loops, tensions, and leadership implications.
+4. Write a synthesis page in `Knowledge/synthesis/` using the Synthesis Page Template.
+5. Update `index.md` catalog under Synthesis.
+6. Append entry to `log.md` with format: `## [YYYY-MM-DD] synthesize | Synthesis Title`.
 
 ### Query (during `/produce` Phase -1)
 
